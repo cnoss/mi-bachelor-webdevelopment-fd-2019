@@ -1,0 +1,19 @@
+.page, .s-cda-footer{
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: $m;
+  grid-row-gap: $m;
+  transition: all 0.5s;
+}
+
+.grid-container-zweispalter{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: $m;
+  grid-row-gap: $m;
+
+}

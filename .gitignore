@@ -1,0 +1,26 @@
+# System files
+# ------------
+
+Icon
+.DS_Store
+.vscode
+
+
+
+
+# Build Tools
+# ---------------
+.sass-cache/
+node_modules/
+.sass-cache/
+tmp/
+
+
+
+
+
+# App
+# ---------------
+
+app/
+app/**/

@@ -1,0 +1,134 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+  <article class="grid-container-zweispalter">
+    <!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+    <figure class="m-image-with-caption">
+      <img
+        src="http://lucascranach.org/thumbnails/DK_SMK_KMSsp721_FR414B/01_Overall/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall.jpg"
+        srcset="http://lucascranach.org/thumbnails/DK_SMK_KMSsp721_FR414B/01_Overall/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall.jpg 500w, http://lucascranach.org/thumbnails/CH_KMB_177a_FR187-188/01_Overall/CH_KMB_177a_FR187-188_2010-03_Overall.jpg 600w, http://lucascranach.org/thumbnails/US_MIA_57-10_FR128/01_Overall/US_MIA_57-10_FR128_2012_Overall.jpg 700w"
+        sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Bildnis Anna Buchner, geborene Lindacker">
+    </figure>
+
+    <!--
+Doku: tbd.
+-->
+
+    <div class="o-image-description">
+      <h2>Bildnis Anna Buchner, geborene Lindacker</h2>
+      <dl class="rootdata">
+        <dt>Inventarnummer</dt>
+        <dd>US_MIA_57-10</dd>
+        <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd> 
+        <dt>Datum</dt>
+        <dd>1515 - 1525</dd>
+        <dt id="classification-headline" data-target="classification-text">Klassifikation</dt>
+        <dd id="classification-text">Malerei</dd>
+        <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt>
+        <dd id="dimensions-text">
+          <p>Maße Bildträger: 40,6 x 27,3 x 0,5 cm (16 x 10 3/4 x 3/16 Zoll)<br />
+            [Minneapolis Institute of Arts, revised 2012]</p>
+          <p>Maße Bildträger: 40 x 27 cm<br />
+            [Friedländer, Rosenberg 1979, No. 128]</p>
+        </dd>
+        <dt id="material-headline" data-target="material-text">Material/ Technik</dt>
+        <dd id="material-text">
+          <p>Malerei auf Holz<br />
+            [Minneapolis Institute of Arts, revised 2012]</p>
+        </dd>
+        <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt>
+        <dd id="provenienz-text">
+          <ul>
+            <li>Prinz Karl Anton von Hohenzollern-Sigmaringen [d. 1885]; sein Sohn, Prinz Leopold von
+              Hohenzollern-Sigmaringen [d. 1905]; dessen Sohn, Prinz Wilhelm August Karl von Hohenzollern-Sigmaringen
+              [d. 1927], Sigmaringen, Deutschland.[1] </li>
+            <li>Oscar Franklin Oppenheimer, Frankfurt-am-Main</li>
+            <li>Richard H. Zinser, Forest Hills, New York</li>
+            <li>1957 vom MIA erworben (The William Hood Dunwoody Fund)</li>
+          </ul>
+          <p>[1] Im Getty Research Institute wurden im Teil II von "Ehemalige Sammlung des Fürsten von
+            Hohenzollern-Sigmaringen" Fotografien beider Porträts gefunden. Die königliche Sammlung von Sigmaringen
+            wurde etwa 1928 zerstreut. Beide Bilder erschienen nicht in der Hohenzollern Auktion von 1933.</p>
+          <p>[Minneapolis Institute of Arts, revised 2012]</p>
+        </dd>
+      </dl>
+
+      <p class="longtext">These companion portraits have been identified as Moritz Büchner and his wife, Anna Lindacker
+        Büchner. As a successful merchant and city alderman, Moritz Büchner was representative of the newly affluent
+        middle class that resulted from the growth of capitalism in 16th-century Germany. Lucas Cranach, the court
+        artist to Frederick III of Saxony, was commissioned by the Büchners to paint their likenesses for posterity.
+        Here, Cranach captures the confidence, pride, and ambition that often accompany newly acquired wealth and
+        improved social status. Cranach"s signature, a winged serpent, and the date of the painting appear on the
+        extreme left of Moritz"s portrait.
+
+        [http://www.artsmia.org/viewer/detail.php?v=12&id=1324 (accessed 03.05.2012)]</p>
+    </div>
+
+    <div>
+    </div>
+  </article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+  var next = {
+    "oid": "539138",
+    "objectname": "FR414B",
+    "inventarnummer": "DK_SMK_KMSsp721",
+    "title": "Bildnis Barbaras, der Herzogin von Sachsen, 1478-1534 (Gemahlin von Georg dem B\u00e4rtigen)",
+    "link": "bildnis-barbaras-der-herzogin-von-sachsen-1478-1534-gemahlin-von-georg-dem-bartigen",
+    "zuschreibung": "Lucas Cranach der \u00c4ltere",
+    "dated": "0",
+    "datebeginn": "1537",
+    "dateend": "1553",
+    "longtext": "Portrait of the Duchess Barbara of Saxony. She is wearing a black and white dress and a white hat\/bonnet. The background of the portrait is greyish blue.\n[Statens Museum for Kunst, revised 2013]",
+    "relatedworks": "Das Bild basiert auf der selben Studie, welche auch f\u00fcr das Stifterportr\u00e4t im Altarbild der Sammlung Thyssen-Bornemisza genutzt wurde.\n[ES_MTB_111-a-1928-14-4_FR028]\n\nWeitere verwandte Werke laut Friedl\u00e4nder, Rosenberg 1978:\n- im Rijksmuseum Twenthe, Enschede (e. 1537), FR414\n- DE_smbGG_1312_FR414A\n- Werk ausgestellt 1925 in Brno, FR414C",
+    "classification": "Malerei",
+    "dimensions": "Ma\u00dfe Bildtr\u00e4ger: 36,0 x 23,0 cm \nMa\u00dfe mit Rahmen: 47,5 x 35,0 cm\n\n[Statens Museum for Kunst, revised 2013]",
+    "provenienz": "- 1690: K\u00f6nigliche Kunstkammer, Kopenhagen\n[Statens Museum for Kunst, revised 2013]",
+    "materialtechnik": "Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]",
+    "verwandtearbeiten": "Das Bild basiert auf der selben Studie, welche auch f\u00fcr das Stifterportr\u00e4t im Altarbild der Sammlung Thyssen-Bornemisza genutzt wurde.\n[ES_MTB_111-a-1928-14-4_FR028]\n\nWeitere verwandte Werke laut Friedl\u00e4nder, Rosenberg 1978:\n- im Rijksmuseum Twenthe, Enschede (e. 1537), FR414\n- DE_smbGG_1312_FR414A\n- Werk ausgestellt 1925 in Brno, FR414C",
+    "ausstellungsgeschichte": "Kopenhagen 2002",
+    "bildurl": "http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall.jpg",
+    "bildurlxs": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall-xs.jpg",
+    "bildurls": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall-s.jpg",
+    "bildurlm": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall-m.jpg",
+    "bildurll": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall-l.jpg",
+    "bildurlxl": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall-xl.jpg"
+  }
+</script>
+
+<script>
+  var slideshowdata = [{
+    "value": "http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp722_FR276\/01_Overall\/DK_SMK_KMSsp722_FR276_2013-10-01_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp725_FR337A\/01_Overall\/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-l.jpg"
+  }]
+</script>{% include "../templates/system/footer/footer.html" %}

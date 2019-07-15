@@ -1,0 +1,56 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/DK_SMK_KMSsp712_FR038B/01_Overall/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/DK_SMK_KMSsp712_FR038B/01_Overall/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/DK_SMK_KMSsp712_FR038B/01_Overall/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/DK_SMK_KMSsp712_FR038B/01_Overall/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Die Kreuzigung">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Die Kreuzigung</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>DK_SMK_KMSsp712</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1500 - 1525</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 67,0 x 46,5 cm<br />
+Maße mit Rahmen: 78,5 x 57,5 cm<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>1666 im Gottorf-Inventar (siehe Harry Schmidt, 435)</li>
+<li>1814 von Schloss Gottorf (als Wohlgemuth und Dürer) in die Königliche Kunstkammer in Kopenhagen<br />
+[Statens Museum for Kunst, revised 2013]</li>
+</ul></dd>  </dl>
+
+  <p class="longtext">The crucifixion of Jesus at the mountain Golgatha. In the right and left side of the painting two other men are pictured crucified and below the cross stands a crowd of people. The background of the painting consists of mountains and a sky with black clouds.
+[Statens Museum for Kunst, revised 2013]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"545588","objectname":"FR037","inventarnummer":"DE_smbGG-Lost_NONE-001","title":"Die Madonna mit dem Kinde und vier weiblichen Heiligen","link":"die-madonna-mit-dem-kinde-und-vier-weiblichen-heiligen","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1507","dateend":"1519","longtext":"Saints Margaret and Catherine (left); saints Barbara and Dorothea (right).\n[Friedl\u00e4nder, Rosenberg 1979, No. 37]","relatedworks":"St. Joachimsthal, Spitalskirche, Mittelbild des Hauptaltars, FR37A (Kopie)\n[Max J. Friedl\u00e4nder Archive]\n\nM\u00f6gliche Zusammenhang:\n- DK_SMK_KMSsp730","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 95 x 76 cm\n\n[Friedl\u00e4nder, Rosenberg 1979, No. 37]","provenienz":"- erworben aus Pariser Privatbesitz\n- Berlin, Kaiser-Friedrich-Museum\n- im Zweiten Weltkrieg zerst\u00f6rt\n\n[Friedl\u00e4nder, Rosenberg 1979, No. 37]","materialtechnik":"Malerei auf Holz\n[Friedl\u00e4nder, Rosenberg 1979, No. 37]","verwandtearbeiten":"St. Joachimsthal, Spitalskirche, Mittelbild des Hauptaltars, FR37A (Kopie)\n[Max J. Friedl\u00e4nder Archive]\n\nM\u00f6gliche Zusammenhang:\n- DK_SMK_KMSsp730","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"913068","objectname":"FR279","inventarnummer":"PRIVATE_NONE-P179","title":"Der Mund der Wahrheit","link":"der-mund-der-wahrheit","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1527","dateend":"1530","longtext":"According to Boccaccio a woman accused of adultery placed her hand in the mouth of a stone lion, whose teeth usually crushed the hands of those who had committed perjury. She pushes back a fool, who embraces her (it is her lover in disguise) and swears that no man except her husband and this fool has touched her. \n[Friedl\u00e4nder, Rosenberg 1979, 125, No. 278]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 111 x 100 cm \n[http:\/\/www.sothebys.com\/en\/auctions\/ecatalogue\/2015\/old-master-british-paintings-evening-sale-l15033\/lot.8.html] (accessed 30-08-2017)","provenienz":"- Slg. Gr\u00e4fin Hardenberg, Neuhardenberg \n- Slg. Heinz Kisters, Kreuzlingen \n[Friedl\u00e4nder, Rosenberg 1979, 125, No. 279] \n- 08. Juli 2015 Sotheby\"s London, Los 8\n[http:\/\/www.sothebys.com\/en\/auctions\/ecatalogue\/2015\/old-master-british-paintings-evening-sale-l15033\/lot.8.html] (accessed 30-08-2017)","materialtechnik":"Malerei auf Rotbuchenholz \n[http:\/\/www.sothebys.com\/en\/auctions\/ecatalogue\/2015\/old-master-british-paintings-evening-sale-l15033\/lot.8.html] (accessed 30-08-2017) \n[Exhib. Cat. Basel 1974, 582, No. 481] \n\nBuchenholz \n[Friedl\u00e4nder, Rosenberg 1979, 125, No. 279]","ausstellungsgeschichte":"N\u00fcrnberg 1963, Nr. 14 \nBasel 1974, Nr. 481 \nHamburg 2003, Nr. 83 \nFrankfurt 2007\/London 2008, Nr. 96\nBr\u00fcssel 2010, Nr. 122","bildurl":"http:\/\/lucascranach.org\/thumbnails\/PRIVATE_NONE-P179_FR279\/01_Overall\/PRIVATE_NONE-P179_FR279_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P179_FR279\/01_Overall\/PRIVATE_NONE-P179_FR279_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P179_FR279\/01_Overall\/PRIVATE_NONE-P179_FR279_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P179_FR279\/01_Overall\/PRIVATE_NONE-P179_FR279_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P179_FR279\/01_Overall\/PRIVATE_NONE-P179_FR279_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P179_FR279\/01_Overall\/PRIVATE_NONE-P179_FR279_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp724_FR347\/01_Overall\/DK_SMK_KMSsp724_FR347_2009-03-13_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

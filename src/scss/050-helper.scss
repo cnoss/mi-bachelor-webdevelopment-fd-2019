@@ -1,0 +1,29 @@
+.helper-bg-gradient{
+  & > p{
+    position: relative;
+    z-index: 200;
+  }
+
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+    z-index: 0;
+  }
+}
+
+.helper-box-shadow{
+  box-shadow: 0 0 $s rgba(0,0,0,0.5);
+}
+
+.helper-box-medium{
+
+}
+
+.helper-more-vspace{
+  margin-bottom: $l;
+}

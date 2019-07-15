@@ -1,0 +1,61 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/US_MMANY_29-100-24_FR056/01_Overall/US_MMANY_29-100-24_FR056_2012-12_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/US_MMANY_29-100-24_FR056/01_Overall/US_MMANY_29-100-24_FR056_2012-12_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/US_MMANY_29-100-24_FR056/01_Overall/US_MMANY_29-100-24_FR056_2012-12_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/US_MMANY_29-100-24_FR056/01_Overall/US_MMANY_29-100-24_FR056_2012-12_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Bildnis eines Mannes mit Rosenkranz">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Bildnis eines Mannes mit Rosenkranz</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>US_MMANY_29-100-24</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1503 - 1513</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße des Bildträgers: 47,4 × 35,6 × 0,95 cm (18 11/16 × 14 × 3/8 Zoll)<br />
+Maße der Bildfläche: 46,7 × 34,9 cm (18 3/8 × 13 3/4 Zoll) [recto],<br />
+46,5 × 34 cm (18 5/16 × 13 9/16 Zoll) [verso]</p>
+<p>[Cat. New York 2013, 45, No. 8]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Eichenholz<br />
+[Cat. New York 2013, 45, No. 8]<br />
+[Klein, Bericht 2006]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>Privatsammlung England</li>
+<li>[Cottier, New York, bis 1914; verkauft an Havemeyer]</li>
+<li>Frau H. O. (Louisine W.) Havemeyer, New York (1914 - 1929)</li>
+<li>H. O. Havemeyer Sammlung, Erbe von H. O. Havemeyer, 1929 29.100.24</li>
+</ul>
+<p>[Cat. New York 2013, 45, No. 8]</p></dd>  </dl>
+
+  <p class="longtext">This sensitive portrait shows a well-dressed young man seemingly transfixed by a devotional image - perhaps of the Virgin and Child - to which he offers a silent prayer as he pauses on a bead of the rosary held in his right hand. With his left hand, he clutches the fur border of his overcoat. On the reverse, a trompe-l"oeil image of a statue of a bald, bearded, and barefoot saint perhaps represents Saint Peter, but the work is too damaged for a definitive identification.
+
+[Cat. New York 2013, 45, No. 8]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"806683","objectname":"FR-none","inventarnummer":"NL_Mh_890","title":"Bildnis eines Mannes mit rotem Bart","link":"bildnis-eines-mannes-mit-rotem-bart","zuschreibung":"Lucas Cranach der J\u00fcngere","dated":"1548","datebeginn":"1548","dateend":"1548","longtext":"The panel depicts a half-length portrait of an unknown male sitter against a greenish grey background. His body fills the lower half of the pictorial space. The collar of a white shirt trimmed with fine lace peeps out from beneath the black gown with decorative slits on the sleeves. The folds of the plain gown and the ruffled sleeves are barely visible in the dark cloth. The monochrome clothing directs the viewer\"s attention to the face with its animated, emphatic expression and the soft rendering of the features. The sitter gazes pensively into the distance. His hair and beard are executed with great precision. Fine brushstrokes defining single white strands in the wavy hair, the curls over his ears and particularly in the beard animate the face like highlights. \n\n[Katja Schneider, Exhib. Cat. Wittenberg 2015, No. 3\/21, 342] [Translation, cda 2015]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 64 x 48 cm \n[http:\/\/www.mauritshuis.nl\/en\/explore\/the-collection\/artworks\/portrait-of-a-man-with-a-red-beard-890\/detailgegevens\/] (accessed 12.12.2014)","provenienz":"- 1912 Nachlass Cornelis Hoogendijk an das Rijksmuseum, Amsterdam (inv. no. SK-A-2560)\n- Dauerleihgabe des Rijksmuseums seit 1951\n[http:\/\/www.mauritshuis.nl\/en\/explore\/the-collection\/artworks\/portrait-of-a-man-with-a-red-beard-890\/detailgegevens\/] (accessed 12.12.2014)","materialtechnik":"Malerei auf Holz\n[http:\/\/www.mauritshuis.nl\/en\/explore\/the-collection\/artworks\/portrait-of-a-man-with-a-red-beard-890\/detailgegevens\/] (accessed 12.12.2014)","ausstellungsgeschichte":"- Wittenberg 2015, Nr. 3\/21","bildurl":"http:\/\/lucascranach.org\/thumbnails\/NL_Mh_890_FR-none\/01_Overall\/NL_Mh_890_FR-none_2014-12_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/NL_Mh_890_FR-none\/01_Overall\/NL_Mh_890_FR-none_2014-12_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/NL_Mh_890_FR-none\/01_Overall\/NL_Mh_890_FR-none_2014-12_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/NL_Mh_890_FR-none\/01_Overall\/NL_Mh_890_FR-none_2014-12_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/NL_Mh_890_FR-none\/01_Overall\/NL_Mh_890_FR-none_2014-12_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/NL_Mh_890_FR-none\/01_Overall\/NL_Mh_890_FR-none_2014-12_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"526158","objectname":"FR339","inventarnummer":"US_MMANY_1981-57-1","title":"Bildnis eines Mannes mit einer goldbestickten M\u00fctze (Lukas Spielhausen?)","link":"bildnis-eines-mannes-mit-einer-goldbestickten-mutze-lukas-spielhausen","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1532","datebeginn":"1532","dateend":"1532","longtext":"This 1532 portrait shows a man at half length against a light blue background. His beard and mustache extend broadly to either side, and his hair is tucked beneath a close-fitting cap embroidered with gold. He wears a black coat whose lapel is decorated with a moir\u00e9 fabric. His doublet displays a pattern of black and orange stripes separated by narrow bands of yellow, green, and white.[1] The orange stripes are slashed to reveal the white undershirt, which is decorated on the collar with three gold-embroidered bands. A medallion hanging from the necklace is tucked beneath the doublet. The man grasps his lapel with his left hand, on which he wears four rings. The signet ring on his forefinger bears the initials LS and a red shield charged with a Wolfsangel, a house mark in the shape of a double hook with a slanted bar at the center.\n\n[1] The green is faded and difficult to discern.\n\n[Cat. New York 2013, 66, 288, No. 14]","relatedworks":"- DE_BRD-GNMN_Gm1649_FR341\n- \"Bildnis eines Mannes mit Barett\" 1532 (ehemals Sammlung Alfredo Hirsch, Buenos Aires)\n- \"Bildnis eines Mannes mit Rosenkranz\" 1532 (Kirchenkreis Alt-Hamburg)\n\nHolz von dem selben Baum wie das f\u00fcr: \n- DE_SKD_GG1919_ FR314-315","classification":"Malerei","dimensions":"Ma\u00dfe der Bildtr\u00e4ger: 50,5 \u00d7 36,4 \u00d7 0,8 cm (19 7\/8 \u00d7 14 5\/16 \u00d7 5\/16 Zoll)\n[Cat. New York 2013, 66, No. 14]","provenienz":"- Familie Spielhausen\n- Georg Hirth, M\u00fcnchen (bis 1916; Verkauf, Galerie Helbing, M\u00fcnchen, ab. 28. November 1916, Nr. 1042)\n- Privatsammlung (bis 1924; Verkauf durch Kleykamp, Den Haag, 10. Juni, Nr. 7)\n- [Julius B\u00f6hler, M\u00fcnchen]\n- [Van Diemen & Co., Berlin und New York, 1925]\n- [Paul Bottenwieser, Berlin und New York, 1925]\n- Dr. und Fr. Franz H. Hirschland, Harrison, N.Y. (1929 bis zum Tode des Mannes 1973)\n- Frau Franz H. (Gula V.) Hirschland, Harrison, N.Y. (1973 bis zu ihrem Tode 1980)\n- Erbe von Gula V. Hirschland, 1980\n\n[Cat. New York 2013, 66, No. 14]","materialtechnik":"Malerei auf Buchenholz\n[Cat. New York 2013, 66, No. 14]\n[Klein, Bericht 2006]","beschriftung":"Wappen\/Emblem:\n- Auf Wappenring: rotes Schild mit einer wei\u00dfen Wolfangel, dar\u00fcber \"LS\"\n\n[Cat. New York 2013, 66, No. 14]","verwandtearbeiten":"- DE_BRD-GNMN_Gm1649_FR341\n- \"Bildnis eines Mannes mit Barett\" 1532 (ehemals Sammlung Alfredo Hirsch, Buenos Aires)\n- \"Bildnis eines Mannes mit Rosenkranz\" 1532 (Kirchenkreis Alt-Hamburg)\n\nHolz von dem selben Baum wie das f\u00fcr: \n- DE_SKD_GG1919_ FR314-315","ausstellungsgeschichte":"Berlin 1925, Nr. 85\nNew York 1929, Nr. 20\nCambridge (Mass.) 1936, Nr. 10\n- New York 1939a, Nr. 57\n- New York 1951, Nr. 3\n- New York 1960, Nr. 5","bildurl":"http:\/\/lucascranach.org\/thumbnails\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_55-220-2_FR314F\/01_Overall\/US_MMANY_55-220-2_FR314F_2007-10_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_57-22_FR021\/01_Overall\/US_MMANY_57-22_FR021_2007-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P041_FR402\/01_Overall\/PRIVATE_NONE-P041_FR402_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

@@ -1,0 +1,64 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/PRIVATE_NONE-P179_FR279/01_Overall/PRIVATE_NONE-P179_FR279_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/PRIVATE_NONE-P179_FR279/01_Overall/PRIVATE_NONE-P179_FR279_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/PRIVATE_NONE-P179_FR279/01_Overall/PRIVATE_NONE-P179_FR279_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/PRIVATE_NONE-P179_FR279/01_Overall/PRIVATE_NONE-P179_FR279_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Der Mund der Wahrheit">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Der Mund der Wahrheit</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>PRIVATE_NONE-P179</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1527 - 1530</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 111 x 100 cm<br />
+[<a href="http://www.sothebys.com/en/auctions/ecatalogue/2015/old-master-british-paintings-evening-sale-l15033/lot.8.html">http://www.sothebys.com/en/auctions/ecatalogue/2015/old-master-british-paintings-evening-sale-l15033/lot.8.html</a>] (accessed 30-08-2017)</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Rotbuchenholz<br />
+[<a href="http://www.sothebys.com/en/auctions/ecatalogue/2015/old-master-british-paintings-evening-sale-l15033/lot.8.html">http://www.sothebys.com/en/auctions/ecatalogue/2015/old-master-british-paintings-evening-sale-l15033/lot.8.html</a>] (accessed 30-08-2017)<br />
+[Exhib. Cat. Basel 1974, 582, No. 481] </p>
+<p>Buchenholz<br />
+[Friedländer, Rosenberg 1979, 125, No. 279]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>Slg. Gräfin Hardenberg, Neuhardenberg </li>
+<li>Slg. Heinz Kisters, Kreuzlingen<br />
+[Friedländer, Rosenberg 1979, 125, No. 279] </li>
+<li>
+<ol start="8">
+<li>Juli 2015 Sotheby"s London, Los 8<br />
+[<a href="http://www.sothebys.com/en/auctions/ecatalogue/2015/old-master-british-paintings-evening-sale-l15033/lot.8.html">http://www.sothebys.com/en/auctions/ecatalogue/2015/old-master-british-paintings-evening-sale-l15033/lot.8.html</a>] (accessed 30-08-2017)</li>
+</ol>
+</li>
+</ul></dd>  </dl>
+
+  <p class="longtext">According to Boccaccio a woman accused of adultery placed her hand in the mouth of a stone lion, whose teeth usually crushed the hands of those who had committed perjury. She pushes back a fool, who embraces her (it is her lover in disguise) and swears that no man except her husband and this fool has touched her. 
+[Friedländer, Rosenberg 1979, 125, No. 278]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"538982","objectname":"FR038B","inventarnummer":"DK_SMK_KMSsp712","title":"Die Kreuzigung","link":"die-kreuzigung","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1500","dateend":"1525","longtext":"The crucifixion of Jesus at the mountain Golgatha. In the right and left side of the painting two other men are pictured crucified and below the cross stands a crowd of people. The background of the painting consists of mountains and a sky with black clouds.\n[Statens Museum for Kunst, revised 2013]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 67,0 x 46,5 cm \nMa\u00dfe mit Rahmen: 78,5 x 57,5 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1666 im Gottorf-Inventar (siehe Harry Schmidt, 435)\n- 1814 von Schloss Gottorf (als Wohlgemuth und D\u00fcrer) in die K\u00f6nigliche Kunstkammer in Kopenhagen\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","beschriftung":"- auf dem Zaumzeug des Pferdes: \nein \"A\" und \"W\" aufgemalt, welche nach Karl Madsen (1904) Sprengler dazu veranlassten, das Bild D\u00fcrer und Michael Wohlgemuth zuzuschreiben\n\n[Statens Museum for Kunst, revised 2013]","ausstellungsgeschichte":"Nivaagaards Malerisamling, 1996-10-26 - 1997-03-09\nS\u00f8lvgade, SMK, Kopenhagen 2002-04-26 - 2002-09-08\nHamburg 2003, Nr. 29","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"538998","objectname":"FR252","inventarnummer":"DK_SMK_KMSsp718","title":"Das Parisurteil","link":"das-parisurteil","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1527","datebeginn":"1527","dateend":"1527","longtext":"Three naked ladies stands in the middle (the goddesses Venus, Juno and Minerva), on the right side a horse standing behind a tree, on the left side a man in reddish clothes bent over a man in armor lying in the grass (the son of King Priam of Troy, Paris). The background of the painting is a landscape with mountains and trees. \n[Statens Museum for Kunst, revised 2013]","relatedworks":"KKSgb5069, \"Parisurteil\", SMK, Holzschnitt, 366 x 257 mm.\n\nWeitere verwandte Werke:\nGleiches Motiv, Holzschnitt:\n- 1508 (B.114) (Geisberg XVIII, 10) - (PPS: 26.62).\n\nGem\u00e4lde (vgl. Fried\u00e4nder & Rosenberg):\n- FR041\n- FR256 (gestohlen 1945)\n- FR257 \n- FR409a \n- US_KAMFW_AP20004-03_FR041\n- US_SAM_52-38_FR118\n- CH_KMB_G1977-37_FR253\n- US_MMANY_28-221_FR254\n- DE_SKK_0109_FR255\n- US_SLAM_28-1932_FR258\n- UK_RCL_RCIN405757_FR-none\n- DE_AGGD_15_FR256\n- DE_SPSG_GKI1185_FR409B\n- DE_SMG_SG672_FR409","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 50,5 x 38,0 cm\nMa\u00dfe mit Rahmen: 62,2 x 49,9 cm \n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1744 erworben\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"KKSgb5069, \"Parisurteil\", SMK, Holzschnitt, 366 x 257 mm.\n\nWeitere verwandte Werke:\nGleiches Motiv, Holzschnitt:\n- 1508 (B.114) (Geisberg XVIII, 10) - (PPS: 26.62).\n\nGem\u00e4lde (vgl. Fried\u00e4nder & Rosenberg):\n- FR041\n- FR256 (gestohlen 1945)\n- FR257 \n- FR409a \n- US_KAMFW_AP20004-03_FR041\n- US_SAM_52-38_FR118\n- CH_KMB_G1977-37_FR253\n- US_MMANY_28-221_FR254\n- DE_SKK_0109_FR255\n- US_SLAM_28-1932_FR258\n- UK_RCL_RCIN405757_FR-none\n- DE_AGGD_15_FR256\n- DE_SPSG_GKI1185_FR409B\n- DE_SMG_SG672_FR409","ausstellungsgeschichte":"S\u00f8lvgade, SMK, Kopenhagen, 2002-04-26 - 2002-09-08\nHamburg 2003, Nr. 67\nS\u00f8lvgade, SMK, Kopenhagen, 2009-05-30\nBr\u00fcssel, 2010-10-20 - 2011-01-23","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-10_FR128\/01_Overall\/US_MIA_57-10_FR128_2012_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp728_FR281A\/01_Overall\/DK_SMK_KMSsp728_FR281A_2008-07-02_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_46-179-2_FR-none\/01_Overall\/US_MMANY_46-179-2_FR-none_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

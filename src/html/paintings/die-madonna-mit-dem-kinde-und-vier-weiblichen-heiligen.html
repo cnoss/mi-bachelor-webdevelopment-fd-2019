@@ -1,0 +1,56 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/DE_smbGG-Lost_NONE-001_FR037/01_Overall/DE_smbGG-Lost_NONE-001_FR037_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/DE_smbGG-Lost_NONE-001_FR037/01_Overall/DE_smbGG-Lost_NONE-001_FR037_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/DE_smbGG-Lost_NONE-001_FR037/01_Overall/DE_smbGG-Lost_NONE-001_FR037_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/DE_smbGG-Lost_NONE-001_FR037/01_Overall/DE_smbGG-Lost_NONE-001_FR037_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Die Madonna mit dem Kinde und vier weiblichen Heiligen">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Die Madonna mit dem Kinde und vier weiblichen Heiligen</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>DE_smbGG-Lost_NONE-001</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1507 - 1519</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 95 x 76 cm</p>
+<p>[Friedländer, Rosenberg 1979, No. 37]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Friedländer, Rosenberg 1979, No. 37]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>erworben aus Pariser Privatbesitz</li>
+<li>Berlin, Kaiser-Friedrich-Museum</li>
+<li>im Zweiten Weltkrieg zerstört</li>
+</ul>
+<p>[Friedländer, Rosenberg 1979, No. 37]</p></dd>  </dl>
+
+  <p class="longtext">Saints Margaret and Catherine (left); saints Barbara and Dorothea (right).
+[Friedländer, Rosenberg 1979, No. 37]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"539731","objectname":"FR036","inventarnummer":"DK_SMK_KMSsp730","title":"Friedrich der Weise, Kurf\u00fcrst von Sachsen (1463-1525) mit den Heiligen Ursula (links) und Genoveva (rechts)","link":"friedrich-der-weise-kurfurst-von-sachsen-1463-1525-mit-den-heiligen-ursula-links-und-genoveva-rechts","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1505","dateend":"1517","longtext":"The Elector Frederic the Wise of Saxony (1463-1525) with Saints Ursula (left) and Genevieve (right).\n[Statens Museum for Kunst, revised 2013]","relatedworks":"stilistisch \u00e4hnliche Werke:\n- DE_SKD_GG1906B_FR012\n- DE_SKD_GG1906BB_FR013\n- DE_AGGD_7a_FR020\n- DE_AGGD_7b_FR020\n- DE_AGGD_7c_FR020\n\npotenzielle Mitteltafel:\n- DK_SMK_KMSsp731_FR-NONE","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 101,0 x 36,5 x 0,6 cm \nMa\u00dfe mit Rahmen: 109,5 x 43,0 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1710 im Gottorf-Inventar \n- 1759 von Schloss Gottorf in die K\u00f6nigliche Kunstkammer in Kopenhagen\n\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"stilistisch \u00e4hnliche Werke:\n- DE_SKD_GG1906B_FR012\n- DE_SKD_GG1906BB_FR013\n- DE_AGGD_7a_FR020\n- DE_AGGD_7b_FR020\n- DE_AGGD_7c_FR020\n\npotenzielle Mitteltafel:\n- DK_SMK_KMSsp731_FR-NONE","ausstellungsgeschichte":"Stockholm 1988\nKopenhagen 2002\nHamburg 2003\nGotha, Kassel 2015, Nr. 6\nD\u00fcsseldorf 2017, Nr. 15","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"538982","objectname":"FR038B","inventarnummer":"DK_SMK_KMSsp712","title":"Die Kreuzigung","link":"die-kreuzigung","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1500","dateend":"1525","longtext":"The crucifixion of Jesus at the mountain Golgatha. In the right and left side of the painting two other men are pictured crucified and below the cross stands a crowd of people. The background of the painting consists of mountains and a sky with black clouds.\n[Statens Museum for Kunst, revised 2013]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 67,0 x 46,5 cm \nMa\u00dfe mit Rahmen: 78,5 x 57,5 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1666 im Gottorf-Inventar (siehe Harry Schmidt, 435)\n- 1814 von Schloss Gottorf (als Wohlgemuth und D\u00fcrer) in die K\u00f6nigliche Kunstkammer in Kopenhagen\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","beschriftung":"- auf dem Zaumzeug des Pferdes: \nein \"A\" und \"W\" aufgemalt, welche nach Karl Madsen (1904) Sprengler dazu veranlassten, das Bild D\u00fcrer und Michael Wohlgemuth zuzuschreiben\n\n[Statens Museum for Kunst, revised 2013]","ausstellungsgeschichte":"Nivaagaards Malerisamling, 1996-10-26 - 1997-03-09\nS\u00f8lvgade, SMK, Kopenhagen 2002-04-26 - 2002-09-08\nHamburg 2003, Nr. 29","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_28-221_FR254\/01_Overall\/US_MMANY_28-221_FR254_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_29-100-24_FR056\/01_Overall\/US_MMANY_29-100-24_FR056_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_08-19_FR424B\/01_Overall\/US_MMANY_08-19_FR424B_2008-07_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

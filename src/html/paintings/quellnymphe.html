@@ -1,0 +1,73 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/US_MMANY_1975-1-136_FR403B/01_Overall/US_MMANY_1975-1-136_FR403B_2007-08_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/US_MMANY_1975-1-136_FR403B/01_Overall/US_MMANY_1975-1-136_FR403B_2007-08_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/US_MMANY_1975-1-136_FR403B/01_Overall/US_MMANY_1975-1-136_FR403B_2007-08_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/US_MMANY_1975-1-136_FR403B/01_Overall/US_MMANY_1975-1-136_FR403B_2007-08_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Quellnymphe">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Quellnymphe</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>US_MMANY_1975-1-136</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Jüngere</dd>  <dt>Datum</dt><dd>1540 - 1555</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 15,2 × 20,3 × 0,16 cm (6 × 8 × 1/16 Zoll)<br />
+[Cat. New York 2013, 94, No. 21]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Buchenholz<br />
+[Cat. New York 2013, 94, No. 21]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><p>Guillaume de Gontaut-Biron, Marquis de Biron, Paris (bis 1908) </p>
+<ul>
+<li>verkauft an Kleinberger [1] </li>
+<li>[Kleinberger, Paris, 1908] </li>
+<li>[verkauft an Simon] </li>
+<li>James Simon, Berlin (von 1908 an) [2] </li>
+<li>Rudolf Chillingworth [3] Nürnberg und Luzer, und/oder seine Ehefrau, [4] Paris (1927) </li>
+<li>[A. S. Drey, New York, bis 1928]</li>
+<li>[verkauft an Lehman] </li>
+<li>Robert Lehman, New York (1928 - zu seinem Tode 1969) </li>
+<li>fiel nach seinem Tod an die Robert Lehman Foundation und wurde in die MMA aufgenommen 1975); Robert Lehman Collection</li>
+</ul>
+<p>[1] Kleinberger Galerie, Bestandskarte Nr. 7932 (Werkakte, Department of European Paintings, MMA).<br />
+[2] Ebd. Das Gemälde wurde nicht auf der Simon-Auktion, Frederik Muller &amp; Cie, Amsterdam, 25. - 26. Oktober 1927 angeboten.<br />
+[3] Laut einer Rechnung von A. S. Drey to Robert Lehman, datiert New York, 9. April 1928 (Werkakte, Robert Lehman Collection, MMA).<br />
+[4] Laut Friedländer und J. Rosenberg 1932, S. 89, Nr. 324b, die ebenfalls das Jahr 1927 angeben.</p></dd>  </dl>
+
+  <p class="longtext">This small, astonishingly well preserved painting shows a nude woman reclining on the grassy bank of a river, near a spring that issues from a rock formation.[1] Looking toward the viewer, she identifies herself and offers a word of caution through the first-person Latin inscription at the upper right: "I, nymph of the sacred spring, am resting; do not disturb my sleep." The scene"s open eroticism is heightened by the nymph"s sultry, half-closed eyes; the red tinge of her cheeks, buttocks, elbows, knees, and feet; the transparent veil that meanders from head to foot, as if to guide the viewer"s gaze along her body; and the bundled red dress, which evokes the thought of her disrobing. A bow and quiver hang in a nearby tree, signaling that the nymph belongs to the entourage of the huntress goddess Diana. A green parrot perched on the bow and two rock partridges in the grass probably serve as symbols of the Luxuria (lust) that is embodied by the nymph and called forth in the male viewer.[2]
+The creatures" unperturbed proximity to the nymph underscores the calm that reigns after the hunt. The two white animals in the immediate foreground are old additions to the composition; they are possibly rabbits, added by a later hand to further emphasize the notion of Luxuria.[3]
+The meticulously detailed landscape background is populated by tiny humans and animals. To the right of the mill, one person walks along the riverbank while another kneels by the water. A rider drives three donkeys, loaded with sacks of grain, toward the mill. A boater navigates the river. Farther back, beyond the walled city, two deer graze in a grassy clearing, and persons on foot and on horseback follow trails into the forest. A castle set high upon a bluff presides over the landscape.
+
+[1] The present discussion offers updates to the entry by Charles Talbot in the 1998 catalogue of the Robert Lehman Collection (Sterling et al. 1998, pp. 48 - 54, no. 10).
+[2]See Matsche 2007, p. 195; S. Dittrich and L. Dittrich 2005, s.v. "Papagei, II, E.," and "Rebhuhn/Steinhuhn, II, H."
+[3]See Talbot in Sterling et al. 1998, p. 53.
+
+[Cat. New York 2013, 94, 95, 293, No. 21]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"417136","objectname":"FR213","inventarnummer":"US_MMANY_1976-201-11","title":"Samson und Delilah","link":"samson-und-delilah","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1523","dateend":"1535","longtext":"The Philistine Delilah cuts the hair of the Old Testament judge Samson thereby sapping him of his strength. The ass\"s jawbone, which Samson used to slay a thousand Philistines, uselessly lies nearby. In the courtly setting of Cranach\"s time, this subject had an allegorical meaning, warning men of the pitfalls of love, or women of the deception of men.\n\nThe painting dates around 1529-30.\n\n[http:\/\/www.metmuseum.org\/works_of_art] (accessed: 11.05.2011)","relatedworks":"Versionen:\n- DE_KSW_G836_FR140\n- DE_SKD_GG1929_FR357E\n- FR212 \n\nHolzschnitt:\n- Lucas van Leyden, \"Samson und Delilah\", aus der Weibermacht Reihe, c. 1514. Holzschnitt, 16 1\/8 \u00d7 11 3\/8 Zoll (41 \u00d7 28,9 cm). The British Museum, London (1849,1027.89)","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 57,3 \u00d7 37,4 \u00d7 0,6 - 0,8 cm (22 9\/16 \u00d7 14 3\/4 \u00d7 1\/4 - 5\/16 Zoll)\n[Cat. New York 2013, 59, No. 12]\n\n56,9 x 37,4 cm\n[The Metropolitan Museum of Art, revised 2011]","provenienz":"- Bis 1961 Barrie Simmons \n- 14.06.1961 verkauft an Markham, Sotheby\"s, London, Nr. 107, f\u00fcr \u00a311,000; verkauft f\u00fcr \u00a310,000 an Kleinberger f\u00fcr Payson\n- 1961-1975 Joan Whitney Payson, New York und Manhasset\n\n[The Metropolitan Museum of Art, revised 2011]","materialtechnik":"Malerei auf Buchenholz (Fagus sp.)\n[The Metropolitan Museum of Art, revised 2011]\n[Klein, Bericht 2006]","beschriftung":"\"A series of three linear incisions on the reverse, two vertical parallel lines approximately 3cm high crossed diagonally by a third, may be a panel maker\"s mark.\"\n\n[US_MMANY_ 1976.201.11_FR213_2008-03-20_ExaminationandConditionReport.pdf]","verwandtearbeiten":"Versionen:\n- DE_KSW_G836_FR140\n- DE_SKD_GG1929_FR357E\n- FR212 \n\nHolzschnitt:\n- Lucas van Leyden, \"Samson und Delilah\", aus der Weibermacht Reihe, c. 1514. Holzschnitt, 16 1\/8 \u00d7 11 3\/8 Zoll (41 \u00d7 28,9 cm). The British Museum, London (1849,1027.89)","ausstellungsgeschichte":"Huntington 1963, nicht nummeriert \nBr\u00fcssel 2010, Nr. 124","bildurl":"http:\/\/lucascranach.org\/thumbnails\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"526937","objectname":"FR-none","inventarnummer":"NL_RM_SK-A-2561","title":"Philipp Melanchthon","link":"philipp-melanchthon","zuschreibung":"Werkstatt Lucas Cranach der \u00c4ltere","dated":"1540","datebeginn":"1540","dateend":"1560","longtext":"Leading figure of the Reformation\n[Cat. Amsterdam 1976, 180]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 36,8 x 23 cm\n[Mauritshuis, revised 2015]\n\n36 x 23 cm\n[Cat. Amsterdam 1976, 180]","provenienz":"- Leihgabe von C. Hoogendijk, Den Haag, 1907\n- \u00fcbergegangen aus seinem Erbe 1912\n- Leihgabe an das Koninklijk Kabinet van Schilderijen \"Het Mauritshuis\" (K\u00f6nigliche Gem\u00e4ldegalerie, Het Mauritshuis) seit 1951aus dem Rijksmuseum (Inv. No. A 2561)\n[Cat. Amsterdam 1976, 180]\n[Mauritshuis, revised 2015]","materialtechnik":"Malerei auf Holz\n[Cat. Amsterdam 1976, 180]","ausstellungsgeschichte":"- Wittenberg 2015, Nr. 1\/18","bildurl":"http:\/\/lucascranach.org\/thumbnails\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_57-22_FR021\/01_Overall\/US_MMANY_57-22_FR021_2007-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp722_FR276\/01_Overall\/DK_SMK_KMSsp722_FR276_2013-10-01_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_46-179-1_FR-none\/01_Overall\/US_MMANY_46-179-1_FR-none_2012-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-48_FR249\/01_Overall\/US_MMANY_1982-60-48_FR249_2008-07_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

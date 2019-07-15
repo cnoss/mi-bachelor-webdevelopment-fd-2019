@@ -1,0 +1,69 @@
+.m-card-image-with-caption {
+
+  border-radius: $border-radius;
+  overflow: hidden;
+  background-color: #000;
+  position: relative;
+  
+  >img {
+    width: 100%;
+  }
+
+  >figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: $m;
+    padding-top: $xl;
+    padding-bottom: $xs;
+
+    >.additional-info {
+      display: none;
+    }
+  }
+
+  .is-list-view & {
+
+    display: grid;
+    grid-template-columns: 300px 1fr;
+
+    >figcaption {
+
+      >.additional-info {
+        display: block;
+
+        >dt,
+        dd,
+        >dd p {
+          display: inline;
+          color: $light;
+        }
+
+        >dt {
+          color: $lighter;
+        }
+
+        >dd:after {
+          content: "";
+          display: block;
+          height: 0;
+        }
+
+      }
+    }
+  }
+
+}
+
+
+
+
+.m-image-with-caption {
+
+  >img {
+    width: 100%;
+  }
+
+  >figcaption {}
+}

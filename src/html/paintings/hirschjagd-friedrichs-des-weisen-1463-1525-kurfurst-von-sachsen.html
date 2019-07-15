@@ -1,0 +1,55 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/DK_SMK_KMSsp728_FR281A/01_Overall/DK_SMK_KMSsp728_FR281A_2008-07-02_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/DK_SMK_KMSsp728_FR281A/01_Overall/DK_SMK_KMSsp728_FR281A_2008-07-02_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/DK_SMK_KMSsp728_FR281A/01_Overall/DK_SMK_KMSsp728_FR281A_2008-07-02_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/DK_SMK_KMSsp728_FR281A/01_Overall/DK_SMK_KMSsp728_FR281A_2008-07-02_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Hirschjagd Friedrichs des Weisen (1463-1525), Kurfürst von Sachsen">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Hirschjagd Friedrichs des Weisen (1463-1525), Kurfürst von Sachsen</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>DK_SMK_KMSsp728</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1524 - 1534</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildtrager: 56,5 x 80,5 cm<br />
+Maße mit Rahmen: 70,5 x 94,5 x 6,6 cm</p>
+<p>[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>vor 1737 in der Königlichen Kunstkammer in Kopenhagen</li>
+</ul>
+<p>[Statens Museum for Kunst, revised 2013]</p></dd>  </dl>
+
+  <p class="longtext">A landscape with a river, meadows, trees and wildlife. A boat sails on the river with a group of people (Elector Frederic the Wise and his hunting crew). In the background a castle and mountains.
+[Statens Museum for Kunst, revised 2013]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"417256","objectname":"FR-none","inventarnummer":"US_MMANY_2006-469","title":"Hl. Maurizius","link":"hl-maurizius","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1517","dateend":"1530","longtext":"Originally the left wing of an altarpiece, this panel represents Saint Maurice, the Roman legion commander who was martyred for refusing to slaughter the Christians of Gaul in the late third century A.D. Painted about 1522-25, this picture was probably among the many works commissioned by Cardinal Albrecht of Brandenburg (1490-1545), archbishop-elector of Mainz. The most powerful prelate in the Holy Roman Empire, Albrecht established Halle\"s collegiate church as the showplace for his art patronage and the pre-eminent collection of reliquaries in northern Europe.\n\nRecorded in the inventory of over 8,200 relics was a life-size reliquary statue of Saint Maurice magnificently attired in a suit of silver armor, trimmed with gold, precious gems, and pearls. Our painting reproduces this extraordinary object, making particular reference to the reigning emperor, Charles V, in such insignia as the collar of the Golden Fleece, the Saint Andrew\"s Cross between sparkling flintstones on the pauldrons, the imperial eagle on the banner, and the glittering silver sword.\n\n[http:\/\/www.metmuseum.org\/works_of_art\/collection_database\/european_paintings\/saint_maurice_lucas_cranach_the_elder_and_workshop\/objectview.aspx?page=1&sort=6&sortdir=asc&keyword=cranach&fp=1&dd1=11&dd2=0&vw=1&collID=11&OID=110004004&vT=1&hi=0&ov=0] (accessed: 12.05.2011)","relatedworks":"- Reliquiar des Hl. Maurizius, aus dem Hallesches Heiltumsbuch (Liber ostensionis),ca. 1526 - 27. Aquarell auf Pergament, 13 13\/16 \u00d7 10 1\/16 Zoll (35 \u00d7 25,5 cm). Hofbibliothek, Aschaffenburg (Ms. 14, fol. 227v)\n\n- Werkstatt Lucas Cranach der \u00c4ltere (Simon Franck?). Hl. Maurizius, linker Fl\u00fcgel des Marian Altars, 1529, Holz, 85 7\/16 \u00d7 39 3\/4 Zoll (217 \u00d7 101 cm), Marktkirche, Halle","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 136,2 \u00d7 38,7 \u00d7 0,32 cm (53 5\/8 \u00d7 15 1\/4 \u00d7 1\/8 Zoll)\nMa\u00dfe Bildfl\u00e4che: 135,3 \u00d7 38,1 cm (53 1\/4 \u00d7 15 Zoll)\n\n[Cat. New York 2013, 73, No. 16]","provenienz":"- Wahrscheinlich in Auftrag gegeben von Kardinal Albrecht von Brandenburg, Erzbischof und Kurf\u00fcrsten von Mainz, Halle (um 1522-25)\n- Sammlung der Habsburger, Schloss Ambras, bei Innsbruck\n- 1906 Waldemar M\u00fcller, Berlin \n- Nach 1940 in der Ephron Gallery, New York\n- Bis 1946 Privatsammlung, Pennsylvania \n- 1946 (Mai 15-16) Verkauf, Parke-Bernet, New York, Nr. 36B, f\u00fcr $3,100\n- fr\u00fche 1970er-1982 Mr. und Mrs. Paul Kollsman, New York und Beverly Hills \n- 1982-2005 in der Sammlung seiner Witwe Eva Kollsman, New York; Bequest of Eva F. Kollsman, 2005 2006.469 [1]\n\n[1] [Cat. New York 2013, 73, No. 16]\n\n[The Metropolitan Museum of Art, revised 2011]","materialtechnik":"Malerei auf Lindenholz (Tilia sp.)\n[The Metropolitan Museum of Art, revised 2011]","verwandtearbeiten":"- Reliquiar des Hl. Maurizius, aus dem Hallesches Heiltumsbuch (Liber ostensionis),ca. 1526 - 27. Aquarell auf Pergament, 13 13\/16 \u00d7 10 1\/16 Zoll (35 \u00d7 25,5 cm). Hofbibliothek, Aschaffenburg (Ms. 14, fol. 227v)\n\n- Werkstatt Lucas Cranach der \u00c4ltere (Simon Franck?). Hl. Maurizius, linker Fl\u00fcgel des Marian Altars, 1529, Holz, 85 7\/16 \u00d7 39 3\/4 Zoll (217 \u00d7 101 cm), Marktkirche, Halle","ausstellungsgeschichte":"Berlin 1906, Nr. 20","bildurl":"http:\/\/lucascranach.org\/thumbnails\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"539606","objectname":"FR274B","inventarnummer":"DK_SMK_KMSsp727","title":"Herkules mit Omphale","link":"herkules-mit-omphale","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1535","datebeginn":"1535","dateend":"1535","longtext":"Hercules with Omphale shown against a dark background.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"Versionen:\n- F_FBT_P70_FR274E\n- DE_HAUMB_GG25_FR274\n\nMittelgro\u00dfe Format:\n- ES_MTB_108-1929-15_FR275\n- DE_MSA_12578_FR-none\n- DE_AGGD_437_FR-none\n\nKlein Format:\n- DE_SMG_SG7_FR-none\n\nsiehe auch [Friedl\u00e4nder, Rosenberg 1978, Nos. 272-275]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 82 x 118 cm \nMa\u00dfe mit Rahmen: 105,8 x 141,5 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1784: Sammlungszugang von Christiansborg M\u00f8belkammer\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Buchenholz\n[Klein, Bericht 2013]","beschriftung":"- Links auf der Wand im Hintergrund:\n\"HERCVLEIS MANIBVS DANT LYDAE PENSA PVELLAE [\/] IMPERIVM DOMINAE FERT DEVS ILLE SVAE [\/] [...]C ECIAM INGENTES ANIMOS INSANA VOLVPTAS [\/] ET DOMITO MOLLIS PECTORE FRAGIT AMOR\"","verwandtearbeiten":"Versionen:\n- F_FBT_P70_FR274E\n- DE_HAUMB_GG25_FR274\n\nMittelgro\u00dfe Format:\n- ES_MTB_108-1929-15_FR275\n- DE_MSA_12578_FR-none\n- DE_AGGD_437_FR-none\n\nKlein Format:\n- DE_SMG_SG7_FR-none\n\nsiehe auch [Friedl\u00e4nder, Rosenberg 1978, Nos. 272-275]","ausstellungsgeschichte":"Stockholm 1988\nKopenhagen 2002\nHamburg 2003, Nr. 76","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp724_FR347\/01_Overall\/DK_SMK_KMSsp724_FR347_2009-03-13_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp728_FR281A\/01_Overall\/DK_SMK_KMSsp728_FR281A_2008-07-02_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

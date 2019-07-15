@@ -1,0 +1,56 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/DK_SMK_KMSsp729_FR338E/01_Overall/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/DK_SMK_KMSsp729_FR338E/01_Overall/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/DK_SMK_KMSsp729_FR338E/01_Overall/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/DK_SMK_KMSsp729_FR338E/01_Overall/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Bildnis Johanns des Beständigen, Kurfürst von Sachsen">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Bildnis Johanns des Beständigen, Kurfürst von Sachsen</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>DK_SMK_KMSsp729</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1528 - 1538</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 46,5 x 24,5 cm<br />
+Maße mit Rahmen: 53,0 x 31,0 cm<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>1710 im Gottorf-Inventar</li>
+<li>1759 von Schloss Gottorf in die Königliche Kunstkammer in Kopenhagen</li>
+</ul>
+<p>[Statens Museum for Kunst, revised 2013]</p></dd>  </dl>
+
+  <p class="longtext">Portrait of the Elector John the Steadfast of Saxony in fur coat and with a greyish background.
+[Statens Museum for Kunst, revised 2013]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"427096","objectname":"FR187-188","inventarnummer":"CH_KMB_177","title":"Bildnis Martin Luther","link":"bildnis-martin-luther","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1525","datebeginn":"1525","dateend":"1525","longtext":"Half-length portrait depicting Luther in three quarter profile, facing right against a turquoise background\n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","relatedworks":"- \"Bildnis Martin Luther\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n- \"Bildnis Katharina von Bora\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n\nVarianten: \n- Ein dem Basler fast ebenb\u00fcrtiges Bilderpaar mit Signatur und Datum 1525, etwas enger im B\u00fcstenausschnitt, befindet sich in der Pierpont Morgan Library in New York (Abb. Taf. XXV bei Ch. L. Kuhn, A Catalogue of German Paintings of the Middle Ages and Renaissance in American Collections, Cambridge Mass. 1936, Nr. 142, mit falscher Datums-Angabe, Durchmesser je 7,5 cm).","classification":"Malerei","dimensions":"Ma\u00dfe der bemalten Fl\u00e4che: 9,9 cm (Durchmesser)\nMa\u00dfe mit Rahmen: 13,5 (Durchmesser) x 1,7 cm (Tiefe)\n[Heydenreich, cda 2010]","provenienz":"- Geschenk von Prof. Johann Rudolf Thurneysen-Faesch 1762\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]\n\n- \"Nach H. Koegler (Jahresbericht der \u00d6ffentl. Kunstsammlung 1919, 37) haben sich beiden Rundbilder (177a)vermutlich schon zu Holbeins Zeiten in Basel befunden, da Holbein dieses Lutherbildnis als Vorlage f\u00fcr einen Holzschnitt benutzt hat.\" [Friedl\u00e4nder, Rosenberg 1932]","materialtechnik":"Malerei auf Buchenholz (Fagus sp.)\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","verwandtearbeiten":"- \"Bildnis Martin Luther\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n- \"Bildnis Katharina von Bora\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n\nVarianten: \n- Ein dem Basler fast ebenb\u00fcrtiges Bilderpaar mit Signatur und Datum 1525, etwas enger im B\u00fcstenausschnitt, befindet sich in der Pierpont Morgan Library in New York (Abb. Taf. XXV bei Ch. L. Kuhn, A Catalogue of German Paintings of the Middle Ages and Renaissance in American Collections, Cambridge Mass. 1936, Nr. 142, mit falscher Datums-Angabe, Durchmesser je 7,5 cm).","ausstellungsgeschichte":"Basel 1974, Nr. 177\nD\u00fcsseldorf 2017, Nr. 108","bildurl":"http:\/\/lucascranach.org\/thumbnails\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"539527","objectname":"FR337A","inventarnummer":"DK_SMK_KMSsp725","title":"Bildnis Johann Friedrichs des Gro\u00dfm\u00fctigen, Kurf\u00fcrst von Sachsen (1503-1554)","link":"bildnis-johann-friedrichs-des-grossmutigen-kurfurst-von-sachsen-1503-1554","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1533","datebeginn":"1533","dateend":"1533","longtext":"Portrait of the Elector John Frederic the Magnanimous of Saxony in a fur coat. Blue background.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"Gegenst\u00fcck:\n- DK_SMK_KMSsp726\n\nVersionen:\n- CH_KMB_1228_FR336A\n- Prado, Madrid\n- Johann Friedrich der Gro\u00dfm\u00fctige von Sachsen, um 1535, Knoedler and Co., London (FR337)\n- Johann Friedrich der Gro\u00dfm\u00fctige von Sachsen, um 1537, aus der Sammlung Nemes, M\u00fcnchen (FR337B)","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 20,0 x 14,0 cm \n[Statens Museum for Kunst, revised 2013]","provenienz":"- vor 1674: K\u00f6nigliche Kunstkammer, Kopenhagen\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"Gegenst\u00fcck:\n- DK_SMK_KMSsp726\n\nVersionen:\n- CH_KMB_1228_FR336A\n- Prado, Madrid\n- Johann Friedrich der Gro\u00dfm\u00fctige von Sachsen, um 1535, Knoedler and Co., London (FR337)\n- Johann Friedrich der Gro\u00dfm\u00fctige von Sachsen, um 1537, aus der Sammlung Nemes, M\u00fcnchen (FR337B)","ausstellungsgeschichte":"Kopenhagen 2002\nHamburg 2003, Nr. 56","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp725_FR337A\/01_Overall\/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp725_FR337A\/01_Overall\/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp725_FR337A\/01_Overall\/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp725_FR337A\/01_Overall\/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp725_FR337A\/01_Overall\/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp725_FR337A\/01_Overall\/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1975-1-136_FR403B\/01_Overall\/US_MMANY_1975-1-136_FR403B_2007-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_28-221_FR254\/01_Overall\/US_MMANY_28-221_FR254_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_46-179-2_FR-none\/01_Overall\/US_MMANY_46-179-2_FR-none_2012-12_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

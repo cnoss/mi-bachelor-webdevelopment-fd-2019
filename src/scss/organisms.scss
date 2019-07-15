@@ -1,0 +1,53 @@
+.o-image-description{
+  padding: 0;
+  margin: 0;
+
+
+  dl.rootdata{
+
+    margin-bottom: $xl;
+
+    dt{
+      display: block;
+      position: relative;
+      min-width: $s;
+      padding-top: $s;
+      color: $lighter;
+
+      &::after{
+          content: "";
+          display: inline-block;
+          padding-right: $xs;
+      }
+
+      button.cda-btn.is-right{
+        top: $s;
+      }
+    }
+
+    dd{
+      border-bottom: solid 1px $dark;
+      padding-bottom: $s;
+      margin-left: 0;
+    }
+
+    dt[data-target]{
+      margin-bottom: $s;
+
+      &.is-open{
+        .cda-btn{
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    dt[data-target] + dd{
+      overflow: hidden;
+      max-height: 1000px;
+      padding-bottom: 0;
+    }
+
+    dt[data-target] + dd.is-open{
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/PRIVATE_NONE-P041_FR402/01_Overall/PRIVATE_NONE-P041_FR402_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/PRIVATE_NONE-P041_FR402/01_Overall/PRIVATE_NONE-P041_FR402_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/PRIVATE_NONE-P041_FR402/01_Overall/PRIVATE_NONE-P041_FR402_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/PRIVATE_NONE-P041_FR402/01_Overall/PRIVATE_NONE-P041_FR402_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Liegende Quellnymphe">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Liegende Quellnymphe</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>PRIVATE_NONE-P041</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1538 - 1586</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 58 x 79 cm<br />
+[San Diego Museum of Art, revised 2018]<br />
+Maße Bildträger: ca. 50 x 75 cm<br />
+[Friedländer, Rosenberg 1979, No. 402]<br />
+Maße Bildträger: 55,5 x 77,5 cm<br />
+[Exhib. Cat. Berlin 1925, No. 86]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Friedländer, Rosenberg 1979, No. 402]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>1925 Sammlung Rudolf Oppenheim, Berlin</li>
+<li>Kunsthandel Berlin</li>
+<li>Polnischer Besitz</li>
+<li>1932 Privatbesitz Paris<br />
+[Friedländer, Rosenberg 1979, No. 402]</li>
+<li>
+<ol start="7">
+<li>Nov. 2011 Kunsthandel Turquin, Experts en Tableaux, Paris (unverkauft?)<br />
+[Seite eines Auktionskataloges von Turquin im Archiv D. Koepplin, 2011]</li>
+</ol>
+</li>
+<li>2014 The Weiss Gallery, London</li>
+<li>2018 Ankauf mit der Unterstutzung von Toni Bloomberg; Gene und Taffin Ray; ein anonymer Stifter und das Museum </li>
+<li>San Diego Museum of Art<br />
+[cda 2018]</li>
+</ul></dd>  </dl>
+
+  <p class="longtext">The water nymph is shown asleep, reclining on the grassy bank of a stream. Her head rests on her angled right arm, her left arm lies next to her body and leads the viewer"s eye to the transparent veil that envelops her body without concealing it. The sleeping one"s weapons hang on a tree at the right. A stag in the background and a pair of partridges animate the expansive landscape. 
+
+[Görres, cda 2014]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"427093","objectname":"FR235","inventarnummer":"CH_KMB_1628","title":"Lucretia","link":"lucretia","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1520","dateend":"1530","longtext":"Lucretia is depicted in three quarter profile against a dark background as a nude figure wearing only a transparent veil and a double row of red pearls. Her left arm is angled behind her head, while her right one is raised in front of her chest holding a dagger.\n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]\n\nAccording to the legend Lucretia lived in the 6th century BC and was the beautiful and virtuous wife of the roman Collatinus. The roman King\"s son - Sextus Tarquinius fell in love with her. During a stay in her house Sextus threatened to kill her and shame her honour if she did not surrender to him. After the rape Lucretia had her father and husband vow vengeance and then she stabbed herself. The event led to an uprising in which the royal family was overthrown and the Roman Empire became a Republic. \nDepictions of Lucretia who was seen as the epitomy of female virtue, chastity, fidelity and honour enjoyed great popularity, particularly in the 16th century. \n[Literature: Bierende 2002, Follak 2002, Livius 1909]","relatedworks":"- Version, 1535 - 40, 75,5 x 57,5 cm, Bild im Mai-Juli 1965 in der Hallsborough Gallery in London ausgestellt; Die Weltkunst, XXXV, Nr. 10, 15. Mai 1965, Abb. S. 419\n[Koepplin, Exhib. Cat. Basel 1974, 666, No. 583]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 79 x 64 x 0,3-0,5 cm \n(ged\u00fcnnt, nachtr\u00e4glich  aufgedoppelt  auf 0,9 cm St\u00e4rke und parkettiert; Bildr\u00e4nder \u00fcberarbeitet; Format vermutlich leicht ver\u00e4ndert)\n[Heydenreich, CDA 2010]\n\nMa\u00dfe mit Rahmen: 95,5 x 80,0 cm\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","provenienz":"- Paris Sammlung Mme. Paul Guery. Versteigerung Mme. E. M. des C., Paris, 19. XI. 1928, Nr. 14\n[Friedl\u00e4nder, Rosenberg 1932, 66]\n\n- Vente Gal. Charpentier, Paris, 8. Dez. 1933\n[Koepplin, Exhib. Cat. Basel 1974, 666, No. 583] \n \n- Ankauf 1934\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","materialtechnik":"Malerei auf Holz\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]\n\n\"Auf Lindenholz\"\n[Koepplin, Exhib. Cat. Basel 1974, 666, No. 583]","verwandtearbeiten":"- Version, 1535 - 40, 75,5 x 57,5 cm, Bild im Mai-Juli 1965 in der Hallsborough Gallery in London ausgestellt; Die Weltkunst, XXXV, Nr. 10, 15. Mai 1965, Abb. S. 419\n[Koepplin, Exhib. Cat. Basel 1974, 666, No. 583]","ausstellungsgeschichte":"Basel 1974, Nr. 583","bildurl":"http:\/\/lucascranach.org\/thumbnails\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"525810","objectname":"FR230E","inventarnummer":"US_MMANY_11-15","title":"Judith mit dem Kopf des Holofernes","link":"judith-mit-dem-kopf-des-holofernes","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1525","dateend":"1535","longtext":"The Book of Judith, part of the Old Testament Apocrypha, relates how the beautiful Jewish widow killed Holofernes, the Assyrian general directing the siege of her city, Bethulia. After seducing Holofernes with her beauty and a false plan to defeat her people, Judith decapitated him as he lay drunk in his tent. Upon discovering the assassination, the Assyrians ended the siege (Judith 8, 15).[1]\nDirectly addressing the viewer, Judith wields a sword in her right hand, while her left arm rests on Holofernes\"s foreshortened head, with its gruesome severed neck. She is presented as the epitome of beauty and high fashion, as understood at the courts of the dukes of Saxony during the early sixteenth century.[2] Her hair bound up, as was appropriate for a married woman,[3] she wears a plumed red beret over a calotte of gold and silver threads decorated with pearls, a style in vogue around 1530.[4] Her dress is dark green with golden orange bands and trim, again embellished with pearls. Around her neck Judith wears two gold collars (called carcanets or gorgerins) set with emeralds, rubies, and pearls; a long gold chain with flattened links is draped across her chest and trails down her back.[5] This ostentatious combination of collars and chains was particular to the court of the Saxon dukes and eventually ran its course, disappearing entirely in the 1540s.[6] The rings on Judith\"s fingers poke through the slits of her thin silk gloves.\n\n[1] Book of Judith 1972 (ed.).\n[2] Straten (1983, pp. 38, 39) stressed that Judith\"s clothing was also meant to emphasize her gentility and virtue.\n[3] During the Reformation, as Friedrich Hottenroth noted, a lady\"s unbound hair connoted virginity and was the fashion of brides, while married women wore their hair tied up and covered with a calotte and beret (Hottenroth 1891, p. 534).\n[4] H. Zimmermann 1969, p. 284. According to Millia Davenport (1948, vol. 1, p. 392), the plumed beret went out of fashion in the second third of the sixteenth century. See also Hottenroth (1891, pp. 532-533, figs. 121, 122, 124), who noted that a Kleiderordnung of 1530 sought to limit the extravagant decoration of the calottes that appeared under the hat (see especially p. 516).\n[5] Warner 1990.\n[6] Ibid., p. 26.\n[7] The Stuttgart Judith\n\n[Cat. New York 2013, 63, 287, No. 13]","relatedworks":"- DE_SPSG_GKI1182_FR234\n- AT_KHM_GG858_FR230A\n- DE_smbGG_636A_FR230G\n- AT_KHM_GG3574_FR359C","classification":"Malerei","dimensions":"Ma\u00dfe der Bildtr\u00e4ger: 87,6 \u00d7 61,3 \u00d7 0,5 cm (34 1\/2 \u00d7 24 1\/8 \u00d7 3\/16 Zoll)\n87,9 \u00d7 62,9 cm (34 5\/8 \u00d7 24 3\/8 Zoll) (samt unterem Rand (Teil des Spannrahmen) und angebrachten vertikalen Leisten)\n\n[Cat. New York 2013, 63, No. 13]","provenienz":"- Rober Hoe, New York (bis zu seinem Tod 1909)\n- Verkauf seines Erbes durch die American Art Association, New York, Februar 17, 1911, Nr. 107, an R. W. de Forest f\u00fcr das MMA, Rogers-Stiftung\n[Cat. New York 2013, 63, No. 13]","materialtechnik":"Malerei auf Lindenholz\n[Cat. New York 2013, 63, No. 13]","verwandtearbeiten":"- DE_SPSG_GKI1182_FR234\n- AT_KHM_GG858_FR230A\n- DE_smbGG_636A_FR230G\n- AT_KHM_GG3574_FR359C","ausstellungsgeschichte":"- Wooster 1944, S. 9\n- Dallas 1947, o. S., Abb.\n- Iowa City 1948\n- Bloomington 1948\n- Louisville 1948 \u00bf 49\n- Madison 1949, o. S., Abb.\n- Palm Beach 1950, Nr. 24\n- Lexington (Va.) 1950 \u00bf 51, Nr. 2\n- Georgia Museum of Art, University of Georgia, Athens, 1951 (kein Katalog)\n- Poughkeepsie 1956\n- New York 1963, Nr. 118\n- Constance Loewenthal in Leningrad und Moskau 1975, Nr. 14, Abb.\n- D\u00fcsseldorf 2017, Nr. 142","bildurl":"http:\/\/lucascranach.org\/thumbnails\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_55-220-2_FR314F\/01_Overall\/US_MMANY_55-220-2_FR314F_2007-10_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp725_FR337A\/01_Overall\/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp724_FR347\/01_Overall\/DK_SMK_KMSsp724_FR347_2009-03-13_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

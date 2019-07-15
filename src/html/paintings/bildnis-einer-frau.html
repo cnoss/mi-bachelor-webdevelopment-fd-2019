@@ -1,0 +1,149 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+  <article class="grid-container-zweispalter">
+    <!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+    <figure class="m-image-with-caption">
+      <img
+        src="http://lucascranach.org/imageserver/DK_SMK_KMSsp724_FR347/01_Overall/DK_SMK_KMSsp724_FR347_2009-03-13_Overall-xs.jpg"
+        srcset="http://lucascranach.org/imageserver/DK_SMK_KMSsp724_FR347/01_Overall/DK_SMK_KMSsp724_FR347_2009-03-13_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/DK_SMK_KMSsp724_FR347/01_Overall/DK_SMK_KMSsp724_FR347_2009-03-13_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/DK_SMK_KMSsp724_FR347/01_Overall/DK_SMK_KMSsp724_FR347_2009-03-13_Overall.jpg 700w"
+        sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Bildnis einer Frau">
+    </figure>
+    <!--
+Doku: tbd.
+-->
+
+    <div class="o-image-description">
+      <h2>Bildnis einer Frau</h2>
+      <dl class="rootdata">
+        <dt>Inventarnummer</dt>
+        <dd>DK_SMK_KMSsp724</dd>
+        <dt>Zuschreibung</dt>
+        <dd>Lucas Cranach der Ältere</dd>
+        <dt>Datum</dt>
+        <dd>1534 - 1534</dd>
+        <dt id="classification-headline" data-target="classification-text">Klassifikation</dt>
+        <dd id="classification-text">Malerei</dd>
+        <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt>
+        <dd id="dimensions-text">
+          <p>Maße Bildträger: 51,5 x 36,0 cm<br />
+            Maße mit Rahmen: 70,0 x 53,8 cm</p>
+          <p>[Statens Museum for Kunst, revised 2013]</p>
+        </dd>
+        <dt id="material-headline" data-target="material-text">Material/ Technik</dt>
+        <dd id="material-text">
+          <p>Malerei auf Buchenholz<br />
+            [Klein, Bericht 2013]</p>
+        </dd>
+        <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt>
+        <dd id="provenienz-text">
+          <ul>
+            <li>1690 in der Königlichen Kunstkammer, Kopenhagen<br />
+              [Statens Museum for Kunst, revised 2013]</li>
+          </ul>
+        </dd>
+      </dl>
+
+      <p class="longtext">Portrait of a woman, wearing a black dress with an orange ornamented collar and ribbons. The
+        background is painted in a greenish colour.
+        [Statens Museum for Kunst, revised 2013]</p>
+    </div>
+
+    <div>
+    </div>
+  </article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+  var next = {
+    "oid": "441649",
+    "objectname": "FR173",
+    "inventarnummer": "DK_SMK_DEP4",
+    "title": "Bildnis einer jungen Frau. Prinzessin Emilia von Sachsen?",
+    "link": "bildnis-einer-jungen-frau-prinzessin-emilia-von-sachsen",
+    "zuschreibung": "Lucas Cranach der \u00c4ltere",
+    "dated": "0",
+    "datebeginn": "1532",
+    "dateend": "1542",
+    "longtext": "The sitter is depicted as a half-length figure, facing left against a black background. Her red velvet robe is decorated with slits in the sleeves and brocade bands. She is wearing gloves with decorative slits on her hands. Around her neck is a ring decorated with pearls and a large double rowed chain. The young woman\"s curly hair is concealed beneath a bonnet.\n[G\u00f6rres, cda 2016]",
+    "classification": "Malerei",
+    "dimensions": "Ma\u00dfe Bildtr\u00e4ger: 41,6 x 29,8 x 0,61-1,42 cm\n(Originale Ma\u00dfe: 41,6 x ca. 27,6 cm)\n[Statens Museum for Kunst, Copenhagen, revised 2011]",
+    "provenienz": "- Ankauf von Carl Jacobsen bei Oppenheim Auktion, K\u00f6ln 14\/15 Oktober 1878 f\u00fcr 530 Mark\n- deponiert 1922 Carlsberg Glyptotek, Kat. Nr. 9\n\n[DK_SMK_DEP4_FR173_1966-01_Document.pdf]\n[DK_SMK_DEP4_FR173_unknown__index card_01.pdf]\n[Statens Museum for Kunst, Copenhagen, revised 2011]",
+    "materialtechnik": "Malerei auf Buchenholz\n[Klein, Bericht 2013]\n[Statens Museum for Kunst, Copenhagen, revised 2011]",
+    "ausstellungsgeschichte": "Hamburg 2003, Nr. 27\nRom 2010, Nr. 17",
+    "bildurl": "http:\/\/lucascranach.org\/thumbnails\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall.jpg",
+    "bildurlxs": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-xs.jpg",
+    "bildurls": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-s.jpg",
+    "bildurlm": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-m.jpg",
+    "bildurll": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-l.jpg",
+    "bildurlxl": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-xl.jpg"
+  }
+</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+  var previous = {
+    "oid": "427111",
+    "objectname": "FR187-188",
+    "inventarnummer": "CH_KMB_177a",
+    "title": "Bildnis der Katharina von Bora",
+    "link": "bildnis-der-katharina-von-bora",
+    "zuschreibung": "Lucas Cranach der \u00c4ltere",
+    "dated": "1525",
+    "datebeginn": "1525",
+    "dateend": "1525",
+    "longtext": "Half-length portrait in three quarter profile, facing left against a turquoise blue background, wearing a grey dress with a black collar, an embroidered bodice and a white laced blouse, her hair is pinned up underneath an embroidered bonnet.\n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]",
+    "relatedworks": "- \"Bildnis Martin Luther\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n\n- \"Bildnis Katharina von Bora\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n\nVarianten: \n- \"1525\" datiert (aus der Lutherhalle Wittenberg, Abb. 66 bei Lilienfein und Abb. in: Berliner Museen, 1952, Heft 3-4)\n- \"1526\" datiert (Stockholm, Abb. S. 86 bei H. Lilje, Martin Luther, Hamburg 1964). \n- Ein dem Basler fast ebenb\u00fcrtiges Bilderpaar mit Signatur und Datum \"1525\", etwas enger im B\u00fcstenausschnitt, befindet sich in der Pierpont Morgan Library in New York (Abb. Taf. XXV bei Ch. L. Kuhn, A Catalogue of German Paintings of the Middle Ages and Renaissance in American Collections, Cambridge Mass. 1936, Nr. 142, mit falscher Datum-Angabe, Durchmesser je 7,5 cm). \n- Undatiertes Bildnis der Katharina von Bora allein in Berlin (Abb. 67 in Cranach-Fs. 1953.\n \n[Exhib. Cat. Basel 1974, 295, No. 178]",
+    "classification": "Malerei",
+    "dimensions": "Ma\u00dfe der bemalten Fl\u00e4che: 10,2 cm (Durchmesser)\nMa\u00dfe mit Rahmen: 14 cm (Durchmesser) x 2 cm (Tiefe)\n[Heydenreich, cda 2010]",
+    "provenienz": "- Geschenk von Prof. Johann Rudolf Thurneysen-Faesch 1762\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]\n\n- \"Nach H. Koegler (Jahresbericht der \u00d6ffentl. Kunstsammlung 1919 S. 37) haben sich beiden Rundbilder (177)vermutlich schon zu Holbeins Zeiten in Basel befunden, da Holbein dieses Lutherbildnis als Vorlage f\u00fcr einen Holzschnitt benutzt hat.\"\n[Friedl\u00e4nder, Rosenberg 1932]",
+    "materialtechnik": "Malerei auf Buchenholz (Fagus sp.)\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]",
+    "verwandtearbeiten": "- \"Bildnis Martin Luther\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n\n- \"Bildnis Katharina von Bora\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n\nVarianten: \n- \"1525\" datiert (aus der Lutherhalle Wittenberg, Abb. 66 bei Lilienfein und Abb. in: Berliner Museen, 1952, Heft 3-4)\n- \"1526\" datiert (Stockholm, Abb. S. 86 bei H. Lilje, Martin Luther, Hamburg 1964). \n- Ein dem Basler fast ebenb\u00fcrtiges Bilderpaar mit Signatur und Datum \"1525\", etwas enger im B\u00fcstenausschnitt, befindet sich in der Pierpont Morgan Library in New York (Abb. Taf. XXV bei Ch. L. Kuhn, A Catalogue of German Paintings of the Middle Ages and Renaissance in American Collections, Cambridge Mass. 1936, Nr. 142, mit falscher Datum-Angabe, Durchmesser je 7,5 cm). \n- Undatiertes Bildnis der Katharina von Bora allein in Berlin (Abb. 67 in Cranach-Fs. 1953.\n \n[Exhib. Cat. Basel 1974, 295, No. 178]",
+    "ausstellungsgeschichte": "Basel 1974, Nr. 178\nD\u00fcsseldorf 2017, Nr. 109",
+    "bildurl": "http:\/\/lucascranach.org\/thumbnails\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall.jpg",
+    "bildurlxs": "http:\/\/lucascranach.org\/imageserver\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall-xs.jpg",
+    "bildurls": "http:\/\/lucascranach.org\/imageserver\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall-s.jpg",
+    "bildurlm": "http:\/\/lucascranach.org\/imageserver\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall-m.jpg",
+    "bildurll": "http:\/\/lucascranach.org\/imageserver\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall-l.jpg",
+    "bildurlxl": "http:\/\/lucascranach.org\/imageserver\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall-xl.jpg"
+  }
+</script>
+<script>
+  var slideshowdata = [{
+    "value": "http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-48_FR249\/01_Overall\/US_MMANY_1982-60-48_FR249_2008-07_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/US_MMANY_57-22_FR021\/01_Overall\/US_MMANY_57-22_FR021_2007-08_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/NL_Mh_890_FR-none\/01_Overall\/NL_Mh_890_FR-none_2014-12_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/US_MMANY_46-179-2_FR-none\/01_Overall\/US_MMANY_46-179-2_FR-none_2012-12_Overall-l.jpg"
+  }, {
+    "value": "http:\/\/lucascranach.org\/imageserver\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall-l.jpg"
+  }]
+</script>{% include "../templates/system/footer/footer.html" %}

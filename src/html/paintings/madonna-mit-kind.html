@@ -1,0 +1,73 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/CH_KMB_1227_FR224/01_Overall/CH_KMB_1227_FR224_2010-03_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/CH_KMB_1227_FR224/01_Overall/CH_KMB_1227_FR224_2010-03_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/CH_KMB_1227_FR224/01_Overall/CH_KMB_1227_FR224_2010-03_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/CH_KMB_1227_FR224/01_Overall/CH_KMB_1227_FR224_2010-03_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Madonna mit Kind">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Madonna mit Kind</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>CH_KMB_1227</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1529 - 1529</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 84,3 x 58 x 1,3<br />
+(nahezu original, rückseitig mit drei senkrechten Leisten versehen)</p>
+<p>[Heydenreich, CDA 2010]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Lindenholz (augenscheinlich)<br />
+[Heydenreich, cda 2010]</p>
+<p>Lindenholz<br />
+[Friedländer, Rosenberg 1932, 64]<br />
+[Exhib. Cat. Basel 1974, 534, Nr. 384] [Friedländer, Rosenberg 1979, 115]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>
+<p>1871 Kunsthandlung v. Butsch, Augsburg</p>
+</li>
+<li>
+<p>Graf Luckner, Altfranken</p>
+</li>
+<li>
+<p>Sammlung Dr. Schubart, München [Cat. Sammlung Dr. Schubart 1894, 3]</p>
+</li>
+<li>
+<p>Sammlung Bachofen-Burckhardt, [Cat. Sammlung Bachofen-Burckhardt 1907, No. 16]</p>
+</li>
+<li>
+<p>Depositum der Prof. J.J. Bachofen-Burckhard-Stiftung 1921</p>
+</li>
+</ul>
+<p>[Friedländer, Rosenberg 1932, 64]</p></dd>  </dl>
+
+  <p class="longtext">The seated Virgin as a three quarter length figure turned slightly to the left, depicted with the naked Christ as a child on her knee. He holds a piece of bread in his right hand.
+
+[Öffentliche Kunstsammlung Basel, revised 2011]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"538495","objectname":"FR038","inventarnummer":"DK_SMK_KMS3674","title":"Madonna und Kind mit dem Johannesknaben","link":"madonna-und-kind-mit-dem-johannesknaben","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1512","datebeginn":"1507","dateend":"1519","longtext":"Virgin and Child adored by the Infant St John on a black background.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"- Laut Friedl\u00e4nder & Rosenberg 1978 Cat. 38, besitzt KMSsp712 (Kreuzigung) Charakteristika, die dem vorliegenden Gem\u00e4lde nahe stehen. Die Kreuzigung gilt als eindeutige Werkstattarbeit. \n- Laut Friedl\u00e4nder & Rosenberg 1978 Cat. 37 und 38 steht das Gem\u00e4lde in enger Verbindung zu der Tafel \"Madonna mit Kind und vier Heiligen\", ehemals Berlin, zerst\u00f6rt w\u00e4hrend des 2. Weltkrieges [DE_smbGG-Lost_NONE-001, cda 2014].\n[Statens Museum for Kunst, revised 2013]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 36,5 x 27,5 cm \nMa\u00dfe mit Rahmen: 67,0 x 58,5 x 0,5 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1921 erworben in Paris f\u00fcr 4.000 oder 5.000 Franc vom Anwalt L. Zeuthen\n- im Oktober 1924 aus dem Erbe L. Zeuthen und seinen Schwestern erhalten\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"- Laut Friedl\u00e4nder & Rosenberg 1978 Cat. 38, besitzt KMSsp712 (Kreuzigung) Charakteristika, die dem vorliegenden Gem\u00e4lde nahe stehen. Die Kreuzigung gilt als eindeutige Werkstattarbeit. \n- Laut Friedl\u00e4nder & Rosenberg 1978 Cat. 37 und 38 steht das Gem\u00e4lde in enger Verbindung zu der Tafel \"Madonna mit Kind und vier Heiligen\", ehemals Berlin, zerst\u00f6rt w\u00e4hrend des 2. Weltkrieges [DE_smbGG-Lost_NONE-001, cda 2014].\n[Statens Museum for Kunst, revised 2013]","ausstellungsgeschichte":"Kopenhagen 2002\nHamburg 2003, Nr. 5","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"427093","objectname":"FR235","inventarnummer":"CH_KMB_1628","title":"Lucretia","link":"lucretia","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1520","dateend":"1530","longtext":"Lucretia is depicted in three quarter profile against a dark background as a nude figure wearing only a transparent veil and a double row of red pearls. Her left arm is angled behind her head, while her right one is raised in front of her chest holding a dagger.\n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]\n\nAccording to the legend Lucretia lived in the 6th century BC and was the beautiful and virtuous wife of the roman Collatinus. The roman King\"s son - Sextus Tarquinius fell in love with her. During a stay in her house Sextus threatened to kill her and shame her honour if she did not surrender to him. After the rape Lucretia had her father and husband vow vengeance and then she stabbed herself. The event led to an uprising in which the royal family was overthrown and the Roman Empire became a Republic. \nDepictions of Lucretia who was seen as the epitomy of female virtue, chastity, fidelity and honour enjoyed great popularity, particularly in the 16th century. \n[Literature: Bierende 2002, Follak 2002, Livius 1909]","relatedworks":"- Version, 1535 - 40, 75,5 x 57,5 cm, Bild im Mai-Juli 1965 in der Hallsborough Gallery in London ausgestellt; Die Weltkunst, XXXV, Nr. 10, 15. Mai 1965, Abb. S. 419\n[Koepplin, Exhib. Cat. Basel 1974, 666, No. 583]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 79 x 64 x 0,3-0,5 cm \n(ged\u00fcnnt, nachtr\u00e4glich  aufgedoppelt  auf 0,9 cm St\u00e4rke und parkettiert; Bildr\u00e4nder \u00fcberarbeitet; Format vermutlich leicht ver\u00e4ndert)\n[Heydenreich, CDA 2010]\n\nMa\u00dfe mit Rahmen: 95,5 x 80,0 cm\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","provenienz":"- Paris Sammlung Mme. Paul Guery. Versteigerung Mme. E. M. des C., Paris, 19. XI. 1928, Nr. 14\n[Friedl\u00e4nder, Rosenberg 1932, 66]\n\n- Vente Gal. Charpentier, Paris, 8. Dez. 1933\n[Koepplin, Exhib. Cat. Basel 1974, 666, No. 583] \n \n- Ankauf 1934\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","materialtechnik":"Malerei auf Holz\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]\n\n\"Auf Lindenholz\"\n[Koepplin, Exhib. Cat. Basel 1974, 666, No. 583]","verwandtearbeiten":"- Version, 1535 - 40, 75,5 x 57,5 cm, Bild im Mai-Juli 1965 in der Hallsborough Gallery in London ausgestellt; Die Weltkunst, XXXV, Nr. 10, 15. Mai 1965, Abb. S. 419\n[Koepplin, Exhib. Cat. Basel 1974, 666, No. 583]","ausstellungsgeschichte":"Basel 1974, Nr. 583","bildurl":"http:\/\/lucascranach.org\/thumbnails\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-48_FR249\/01_Overall\/US_MMANY_1982-60-48_FR249_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_46-179-1_FR-none\/01_Overall\/US_MMANY_46-179-1_FR-none_2012-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_55-220-2_FR314F\/01_Overall\/US_MMANY_55-220-2_FR314F_2007-10_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

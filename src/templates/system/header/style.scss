@@ -1,0 +1,54 @@
+.s-cda-header {
+  position: relative;
+  border-bottom: solid 1px $dark;
+  padding-bottom: $l;
+  margin-bottom: $xl;
+
+  & a.logo {
+    font-weight: 100;
+    text-decoration: none;
+    display: block;
+
+  }
+
+  >button.cda-btn {
+
+    position: absolute;
+    top: $s;
+    right: 0;
+    display: none;
+
+    &.is-active{
+      display: block;
+    }
+
+    >.btn-icon {
+      display: block;
+      margin: $xs /2;
+    }
+
+    &.card-view {
+      & #btn-icon-card-view {
+        display: block;
+      }
+
+      & #btn-icon-list-view {
+        display: none;
+      }
+    }
+
+    &.list-view {
+      transform: rotate(180deg);
+
+      & #btn-icon-card-view {
+        display: none;
+      }
+
+      & #btn-icon-list-view {
+        display: block;
+      }
+    }
+
+  }
+
+}

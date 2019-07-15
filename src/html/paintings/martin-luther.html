@@ -1,0 +1,58 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/US_MMANY_55-220-2_FR314F/01_Overall/US_MMANY_55-220-2_FR314F_2007-10_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/US_MMANY_55-220-2_FR314F/01_Overall/US_MMANY_55-220-2_FR314F_2007-10_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/US_MMANY_55-220-2_FR314F/01_Overall/US_MMANY_55-220-2_FR314F_2007-10_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/US_MMANY_55-220-2_FR314F/01_Overall/US_MMANY_55-220-2_FR314F_2007-10_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Martin Luther">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Martin Luther</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>US_MMANY_55-220-2</dd>  <dt>Zuschreibung</dt><dd>Werkstatt Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1527 - 1537</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße der Bildträger: 33,3 × 23,2 × 0,6 - 0,8 cm (13 1/8 × 9 1/8 × 1/4 - 5/16 Zoll)<br />
+[Cat. New York 2013, 85, No. 18]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Buchenholz<br />
+[Cat. New York 2013, 85, No. 18]<br />
+[Klein, Bericht 2006]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>? [Kunsthandlung, in 1927]</li>
+<li>Robert Lehman, New York (seit 1928 - 55)</li>
+<li>Schenkung Robert Lehman, 1955</li>
+</ul>
+<p>[Cat. New York 2013, 85, No. 18]</p></dd>  </dl>
+
+  <p class="longtext">This is one of the many printed and painted portraits of Martin Luther (1483-1546) that were produced by Cranach and his workshop beginning about 1520. The reformer and the artist were well acquainted, for Cranach served as Luther"s matchmaker (Brautwerber) when he was courting Katharina von Bora, who lived in Cranach"s house in Wittenberg from 1523 until her marriage to Luther in 1525. Luther also served as the godfather of Cranach"s first daughter, born in 1520.
+
+[Cat. New York 2013, 85, No. 18]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"539201","objectname":"FR276","inventarnummer":"DK_SMK_KMSsp722","title":"Melancholie","link":"melancholie","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1532","datebeginn":"1532","dateend":"1532","longtext":"A woman figure with wings sits in the right side of the painting whittling on a stick, apparently in the process of making a hoop. At the left side of the painting three naked boys are playing a game, where they try to get a large ball through a hoop by means of a stick.\n[Statens Museum for Kunst, revised 2013]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 51 x 97 cm\nMa\u00dfe mit Rahmen: 66,3 x 111,7 x 8,3 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1710 im Gottorf-Inventar\n- 1759 von Schloss Gottorf nach Kopenhagen \n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","ausstellungsgeschichte":"Stockholm 1988\nKopenhagen 2002\nHamburg 2003, Nr. 26\nRom 2010, Nr. 12","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp722_FR276\/01_Overall\/DK_SMK_KMSsp722_FR276_2013-10-01_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp722_FR276\/01_Overall\/DK_SMK_KMSsp722_FR276_2013-10-01_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp722_FR276\/01_Overall\/DK_SMK_KMSsp722_FR276_2013-10-01_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp722_FR276\/01_Overall\/DK_SMK_KMSsp722_FR276_2013-10-01_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp722_FR276\/01_Overall\/DK_SMK_KMSsp722_FR276_2013-10-01_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp722_FR276\/01_Overall\/DK_SMK_KMSsp722_FR276_2013-10-01_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"539800","objectname":"FR036","inventarnummer":"DK_SMK_KMSsp731","title":"Madonna und Kind mit den Heiligen Katharina und Barbara","link":"madonna-und-kind-mit-den-heiligen-katharina-und-barbara","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1509","dateend":"1515","longtext":"The virgin holding the child in the middle of the painting and flanked by two women (the saints Catherine and Barbara). Two angels fly above the three women. The background of the painting is black\/dark brown.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"M\u00f6glicher zugeh\u00f6riger Fl\u00fcgel:\n- DK_SMK_KMSsp730_FR036","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 96,5 x 80,5 cm\nMa\u00dfe mit Rahmen: 111 x 95 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1784: aus der Christiansborg M\u00f6belkammer\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei von Holz auf Leinwand \u00fcbertragen\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"M\u00f6glicher zugeh\u00f6riger Fl\u00fcgel:\n- DK_SMK_KMSsp730_FR036","ausstellungsgeschichte":"Stockholm 1988\nKopenhagen 2002\nHamburg 2003\nGotha, Kassel 2015, Nr. 7\nD\u00fcsseldorf 2017, Nr. 16","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-10_FR128\/01_Overall\/US_MIA_57-10_FR128_2012_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_28-221_FR254\/01_Overall\/US_MMANY_28-221_FR254_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P179_FR279\/01_Overall\/PRIVATE_NONE-P179_FR279_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

@@ -1,0 +1,55 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/DK_SMK_KMSsp720_FR314A/01_Overall/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/DK_SMK_KMSsp720_FR314A/01_Overall/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/DK_SMK_KMSsp720_FR314A/01_Overall/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/DK_SMK_KMSsp720_FR314A/01_Overall/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Bildnis Martin Luthers">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Bildnis Martin Luthers</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>DK_SMK_KMSsp720</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1532 - 1532</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 37,0 x 23,5 cm<br />
+Maße mit Rahmen: 52,5 x 23,5 cm<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>1674: Königliche Kunstkammer, Kopenhagen<br />
+[Statens Museum for Kunst, revised 2013]</li>
+</ul></dd>  </dl>
+
+  <p class="longtext">Portrait of Martin Luther. He is wearing a black coat and a hat and he is painted on a blue/greyish background.
+[Statens Museum for Kunst, revised 2013]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"455096","objectname":"FR127","inventarnummer":"US_MIA_57-11","title":"Bildnis Moritz Buchner","link":"bildnis-moritz-buchner","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1515","dateend":"1525","longtext":"These companion portraits have been identified as Moritz B\u00fcchner and his wife, Anna Lindacker B\u00fcchner. As a successful merchant and city alderman, Moritz B\u00fcchner was representative of the newly affluent middle class that resulted from the growth of capitalism in 16th-century Germany. Lucas Cranach, the court artist to Frederick III of Saxony, was commissioned by the B\u00fcchners to paint their likenesses for posterity. Here, Cranach captures the confidence, pride, and ambition that often accompany newly acquired wealth and improved social status. Cranach\"s signature, a winged serpent, and the date of the painting appear on the extreme left of Moritz\"s portrait.\n\n[http:\/\/www.artsconnected.org\/resource\/1796\/portrait-of-moritz-buchner (accessed 21.05.2012)]\n\nReverse of the panel:\n- the coats-of-arms of the families B\u00fcchner and Lindacker (?)\n\n[Minneapolis Institute of Arts, revised 2012]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 40,6 x 27,3 x 0,5 cm (16 x 10 3\/4 x 3\/16 Zoll)\n[Minneapolis Institute of Arts, revised 2012]\n\nMa\u00dfe Bildtr\u00e4ger: 40 x 27 cm\n[Friedl\u00e4nder, Rosenberg 1979, No. 127]","provenienz":"- Prinz Karl Anton von Hohenzollern-Sigmaringen [d. 1885]; sein Sohn, Prinz Leopold von Hohenzollern-Sigmaringen [d. 1905]; dessen Sohn, Prinz Wilhelm August Karl von Hohenzollern-Sigmaringen [d. 1927], Sigmaringen, Deutschland.[1] \n- Oscar Franklin Oppenheimer, Frankfurt-am-Main\n- Richard H. Zinser, Forest Hills, New York\n- 1957 vom MIA erworben (The William Hood Dunwoody Fund)\n\t\n[1] Im Getty Research Institute wurden im Teil II von \"Ehemalige Sammlung des F\u00fcrsten von Hohenzollern-Sigmaringen\" Fotografien beider Portr\u00e4ts gefunden. Die k\u00f6nigliche Sammlung von Sigmaringen wurde etwa 1928 zerstreut. Beide Bilder erschienen nicht in der Hohenzollern Auktion von 1933.\n\n[Minneapolis Institute of Arts, revised 2012]","materialtechnik":"Malerei auf Holz\n[Minneapolis Institute of Arts, revised 2012]","beschriftung":"- auf dem Ring seines linken Zeigefingers: \n\"M[B]\"\n\n[http:\/\/www.artsconnected.org\/resource\/1796\/portrait-of-moritz-buchner (accessed 21.05.2012)]\n[Friedl\u00e4nder, Rosenberg 1979, No. 127]","ausstellungsgeschichte":"Frankfurt-am-Main 1928, Nr. 27","bildurl":"http:\/\/lucascranach.org\/thumbnails\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"427096","objectname":"FR187-188","inventarnummer":"CH_KMB_177","title":"Bildnis Martin Luther","link":"bildnis-martin-luther","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1525","datebeginn":"1525","dateend":"1525","longtext":"Half-length portrait depicting Luther in three quarter profile, facing right against a turquoise background\n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","relatedworks":"- \"Bildnis Martin Luther\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n- \"Bildnis Katharina von Bora\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n\nVarianten: \n- Ein dem Basler fast ebenb\u00fcrtiges Bilderpaar mit Signatur und Datum 1525, etwas enger im B\u00fcstenausschnitt, befindet sich in der Pierpont Morgan Library in New York (Abb. Taf. XXV bei Ch. L. Kuhn, A Catalogue of German Paintings of the Middle Ages and Renaissance in American Collections, Cambridge Mass. 1936, Nr. 142, mit falscher Datums-Angabe, Durchmesser je 7,5 cm).","classification":"Malerei","dimensions":"Ma\u00dfe der bemalten Fl\u00e4che: 9,9 cm (Durchmesser)\nMa\u00dfe mit Rahmen: 13,5 (Durchmesser) x 1,7 cm (Tiefe)\n[Heydenreich, cda 2010]","provenienz":"- Geschenk von Prof. Johann Rudolf Thurneysen-Faesch 1762\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]\n\n- \"Nach H. Koegler (Jahresbericht der \u00d6ffentl. Kunstsammlung 1919, 37) haben sich beiden Rundbilder (177a)vermutlich schon zu Holbeins Zeiten in Basel befunden, da Holbein dieses Lutherbildnis als Vorlage f\u00fcr einen Holzschnitt benutzt hat.\" [Friedl\u00e4nder, Rosenberg 1932]","materialtechnik":"Malerei auf Buchenholz (Fagus sp.)\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","verwandtearbeiten":"- \"Bildnis Martin Luther\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n- \"Bildnis Katharina von Bora\", 37,5 x 24,5 cm, Berlin, Sammlung Baronin R. von Goldsachmidt-Rothschild. \n[Friedl\u00e4nder\/Rosenberg 1932, 60]\n\nVarianten: \n- Ein dem Basler fast ebenb\u00fcrtiges Bilderpaar mit Signatur und Datum 1525, etwas enger im B\u00fcstenausschnitt, befindet sich in der Pierpont Morgan Library in New York (Abb. Taf. XXV bei Ch. L. Kuhn, A Catalogue of German Paintings of the Middle Ages and Renaissance in American Collections, Cambridge Mass. 1936, Nr. 142, mit falscher Datums-Angabe, Durchmesser je 7,5 cm).","ausstellungsgeschichte":"Basel 1974, Nr. 177\nD\u00fcsseldorf 2017, Nr. 108","bildurl":"http:\/\/lucascranach.org\/thumbnails\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_57-22_FR021\/01_Overall\/US_MMANY_57-22_FR021_2007-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_28-221_FR254\/01_Overall\/US_MMANY_28-221_FR254_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_2006-469_FR-none\/01_Overall\/US_MMANY_2006-469_FR-none_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

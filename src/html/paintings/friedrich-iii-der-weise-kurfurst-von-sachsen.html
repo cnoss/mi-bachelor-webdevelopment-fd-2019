@@ -1,0 +1,63 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/US_MMANY_46-179-1_FR-none/01_Overall/US_MMANY_46-179-1_FR-none_2012-11_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/US_MMANY_46-179-1_FR-none/01_Overall/US_MMANY_46-179-1_FR-none_2012-11_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/US_MMANY_46-179-1_FR-none/01_Overall/US_MMANY_46-179-1_FR-none_2012-11_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/US_MMANY_46-179-1_FR-none/01_Overall/US_MMANY_46-179-1_FR-none_2012-11_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Friedrich III. der Weise, Kurfürst von Sachsen">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Friedrich III. der Weise, Kurfürst von Sachsen</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>US_MMANY_46-179-1</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1533 - 1533</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße der Bildträger: 20,9 × 14,9 × 0,32 cm (8 1/4 × 5 7/8 × 1/8 Zoll)<br />
+Maße der Bildfläche: 20,3 × 14,3 cm (8 × 5 5/8 Zoll) (Bereich des Bild und Text, ungefähr)</p>
+<p>[Cat. New York 2013, 78, No. 17A]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Buchenholz und bedrucktes Papier<br />
+[Cat. New York 2013, 78, No. 17A]<br />
+[Klein, Bericht 2007]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>Ministerialdirektor Heinrich Spangenberger, München (bis 1925; verkauft an Heinemann) [1] </li>
+<li>[D. Heinemann, München (Teilbesitz durch Galerie Hansen, Luzern), bis 1929; Verkauf an Lehman][2] </li>
+<li>Robert Lehman, New York (1929 - 46)</li>
+<li>Geschenk von Robert Lehman, 1946</li>
+</ul>
+<p>[1] Heinemann Nr. 18141, 18142; vgl. Galerie Heinemann Online 2010 - (geprüft 16. Mai 2012).<br />
+[2] Ebd.</p>
+<p>[Cat. New York 2013, 79, 290, No. 17A]</p></dd>  </dl>
+
+  <p class="longtext">These small posthumous portraits depict the brothers and Saxon electors Friedrich III, the Wise (1463 - 1525; r. 1486 - 1525), and Johann I, the Constant (1468 - 1532; r. 1525 - 32), in bust length against a light blue background. Each wears a white undershirt, a black shirt, a coat with a heavy fur lapel, and a black beret. The names of the sitters and laudatory poems are printed (not painted) on pieces of paper that have been pasted down on the panels. Two of the Metropolitan Museum"s pictures are pendants (cat. 17a, b). [...]
+These works belong to a series of sixty such portrait pairs that Johann I"s son and successor, Johann Friedrich I, the Magnanimous (r. 1532 - 47), commissioned from Lucas Cranach the Elder in 1532. The commission coincided with Johann Friedrich"s assumption of electoral office after the death of his father.
+
+[Cat. New York 2013, 82, No. 17A]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"539606","objectname":"FR274B","inventarnummer":"DK_SMK_KMSsp727","title":"Herkules mit Omphale","link":"herkules-mit-omphale","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1535","datebeginn":"1535","dateend":"1535","longtext":"Hercules with Omphale shown against a dark background.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"Versionen:\n- F_FBT_P70_FR274E\n- DE_HAUMB_GG25_FR274\n\nMittelgro\u00dfe Format:\n- ES_MTB_108-1929-15_FR275\n- DE_MSA_12578_FR-none\n- DE_AGGD_437_FR-none\n\nKlein Format:\n- DE_SMG_SG7_FR-none\n\nsiehe auch [Friedl\u00e4nder, Rosenberg 1978, Nos. 272-275]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 82 x 118 cm \nMa\u00dfe mit Rahmen: 105,8 x 141,5 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1784: Sammlungszugang von Christiansborg M\u00f8belkammer\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Buchenholz\n[Klein, Bericht 2013]","beschriftung":"- Links auf der Wand im Hintergrund:\n\"HERCVLEIS MANIBVS DANT LYDAE PENSA PVELLAE [\/] IMPERIVM DOMINAE FERT DEVS ILLE SVAE [\/] [...]C ECIAM INGENTES ANIMOS INSANA VOLVPTAS [\/] ET DOMITO MOLLIS PECTORE FRAGIT AMOR\"","verwandtearbeiten":"Versionen:\n- F_FBT_P70_FR274E\n- DE_HAUMB_GG25_FR274\n\nMittelgro\u00dfe Format:\n- ES_MTB_108-1929-15_FR275\n- DE_MSA_12578_FR-none\n- DE_AGGD_437_FR-none\n\nKlein Format:\n- DE_SMG_SG7_FR-none\n\nsiehe auch [Friedl\u00e4nder, Rosenberg 1978, Nos. 272-275]","ausstellungsgeschichte":"Stockholm 1988\nKopenhagen 2002\nHamburg 2003, Nr. 76","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"539731","objectname":"FR036","inventarnummer":"DK_SMK_KMSsp730","title":"Friedrich der Weise, Kurf\u00fcrst von Sachsen (1463-1525) mit den Heiligen Ursula (links) und Genoveva (rechts)","link":"friedrich-der-weise-kurfurst-von-sachsen-1463-1525-mit-den-heiligen-ursula-links-und-genoveva-rechts","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1505","dateend":"1517","longtext":"The Elector Frederic the Wise of Saxony (1463-1525) with Saints Ursula (left) and Genevieve (right).\n[Statens Museum for Kunst, revised 2013]","relatedworks":"stilistisch \u00e4hnliche Werke:\n- DE_SKD_GG1906B_FR012\n- DE_SKD_GG1906BB_FR013\n- DE_AGGD_7a_FR020\n- DE_AGGD_7b_FR020\n- DE_AGGD_7c_FR020\n\npotenzielle Mitteltafel:\n- DK_SMK_KMSsp731_FR-NONE","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 101,0 x 36,5 x 0,6 cm \nMa\u00dfe mit Rahmen: 109,5 x 43,0 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1710 im Gottorf-Inventar \n- 1759 von Schloss Gottorf in die K\u00f6nigliche Kunstkammer in Kopenhagen\n\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"stilistisch \u00e4hnliche Werke:\n- DE_SKD_GG1906B_FR012\n- DE_SKD_GG1906BB_FR013\n- DE_AGGD_7a_FR020\n- DE_AGGD_7b_FR020\n- DE_AGGD_7c_FR020\n\npotenzielle Mitteltafel:\n- DK_SMK_KMSsp731_FR-NONE","ausstellungsgeschichte":"Stockholm 1988\nKopenhagen 2002\nHamburg 2003\nGotha, Kassel 2015, Nr. 6\nD\u00fcsseldorf 2017, Nr. 15","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp726_FR337A\/01_Overall\/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1975-1-136_FR403B\/01_Overall\/US_MMANY_1975-1-136_FR403B_2007-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_46-179-1_FR-none\/01_Overall\/US_MMANY_46-179-1_FR-none_2012-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-48_FR249\/01_Overall\/US_MMANY_1982-60-48_FR249_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

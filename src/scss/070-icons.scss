@@ -1,0 +1,28 @@
+button.cda-btn {
+  padding: 0;
+  background-color: transparent;
+  border: solid 1px $light;
+  color: #fff;
+  transition: all 0.3s;
+  opacity: 0.7;
+
+
+  &:hover {
+    background-color: #000;
+    opacity: 1;
+  }
+}
+
+.icon-arrow-down {
+  width: 26px;
+  height: 26px;
+  background-image: url("../images/sharp-keyboard_arrow_down-24px.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.is-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+}

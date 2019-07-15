@@ -1,0 +1,56 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/DK_SMK_KMS3674_FR038/01_Overall/DK_SMK_KMS3674_FR038_2004-11-30_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/DK_SMK_KMS3674_FR038/01_Overall/DK_SMK_KMS3674_FR038_2004-11-30_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/DK_SMK_KMS3674_FR038/01_Overall/DK_SMK_KMS3674_FR038_2004-11-30_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/DK_SMK_KMS3674_FR038/01_Overall/DK_SMK_KMS3674_FR038_2004-11-30_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Madonna und Kind mit dem Johannesknaben">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Madonna und Kind mit dem Johannesknaben</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>DK_SMK_KMS3674</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1507 - 1519</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 36,5 x 27,5 cm<br />
+Maße mit Rahmen: 67,0 x 58,5 x 0,5 cm<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>1921 erworben in Paris für 4.000 oder 5.000 Franc vom Anwalt L. Zeuthen</li>
+<li>im Oktober 1924 aus dem Erbe L. Zeuthen und seinen Schwestern erhalten<br />
+[Statens Museum for Kunst, revised 2013]</li>
+</ul></dd>  </dl>
+
+  <p class="longtext">Virgin and Child adored by the Infant St John on a black background.
+[Statens Museum for Kunst, revised 2013]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"539800","objectname":"FR036","inventarnummer":"DK_SMK_KMSsp731","title":"Madonna und Kind mit den Heiligen Katharina und Barbara","link":"madonna-und-kind-mit-den-heiligen-katharina-und-barbara","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1509","dateend":"1515","longtext":"The virgin holding the child in the middle of the painting and flanked by two women (the saints Catherine and Barbara). Two angels fly above the three women. The background of the painting is black\/dark brown.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"M\u00f6glicher zugeh\u00f6riger Fl\u00fcgel:\n- DK_SMK_KMSsp730_FR036","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 96,5 x 80,5 cm\nMa\u00dfe mit Rahmen: 111 x 95 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1784: aus der Christiansborg M\u00f6belkammer\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei von Holz auf Leinwand \u00fcbertragen\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"M\u00f6glicher zugeh\u00f6riger Fl\u00fcgel:\n- DK_SMK_KMSsp730_FR036","ausstellungsgeschichte":"Stockholm 1988\nKopenhagen 2002\nHamburg 2003\nGotha, Kassel 2015, Nr. 7\nD\u00fcsseldorf 2017, Nr. 16","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"427112","objectname":"FR224","inventarnummer":"CH_KMB_1227","title":"Madonna mit Kind","link":"madonna-mit-kind","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1529","datebeginn":"1529","dateend":"1529","longtext":"The seated Virgin as a three quarter length figure turned slightly to the left, depicted with the naked Christ as a child on her knee. He holds a piece of bread in his right hand.\n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","relatedworks":"- \"Flechsig und Friedl\u00e4nder, Rosenberg verglichen das Bild mit dem Madonnen in Leningrad (FR187) [Schade 1974, Plate 107] \nKopie einer Variante im Ferdinandeum in Innsbruck, 85 x 58,5 cm).\"\n\n[Exhib. Cat. Basel 1974, 534, No. 384]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 84,3 x 58 x 1,3\n(nahezu original, r\u00fcckseitig mit drei senkrechten Leisten versehen)\n\n[Heydenreich, CDA 2010]","provenienz":"- 1871 Kunsthandlung v. Butsch, Augsburg\n\n- Graf Luckner, Altfranken\n\n- Sammlung Dr. Schubart, M\u00fcnchen [Cat. Sammlung Dr. Schubart 1894, 3]\n\n- Sammlung Bachofen-Burckhardt, [Cat. Sammlung Bachofen-Burckhardt 1907, No. 16]\n\n- Depositum der Prof. J.J. Bachofen-Burckhard-Stiftung 1921\n\n[Friedl\u00e4nder, Rosenberg 1932, 64]","materialtechnik":"Malerei auf Lindenholz (augenscheinlich)\n[Heydenreich, cda 2010]\n\nLindenholz\n[Friedl\u00e4nder, Rosenberg 1932, 64]\n[Exhib. Cat. Basel 1974, 534, Nr. 384] [Friedl\u00e4nder, Rosenberg 1979, 115]","verwandtearbeiten":"- \"Flechsig und Friedl\u00e4nder, Rosenberg verglichen das Bild mit dem Madonnen in Leningrad (FR187) [Schade 1974, Plate 107] \nKopie einer Variante im Ferdinandeum in Innsbruck, 85 x 58,5 cm).\"\n\n[Exhib. Cat. Basel 1974, 534, No. 384]","ausstellungsgeschichte":"Dresden 1899, Nr. 47\nD\u00fcsseldorf 1904, Nr. 217\nBasel 1974, Nr. 384","bildurl":"http:\/\/lucascranach.org\/thumbnails\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177_FR187-188\/01_Overall\/CH_KMB_177_FR187-188_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P179_FR279\/01_Overall\/PRIVATE_NONE-P179_FR279_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp722_FR276\/01_Overall\/DK_SMK_KMSsp722_FR276_2013-10-01_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

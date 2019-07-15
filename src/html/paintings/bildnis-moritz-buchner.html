@@ -1,0 +1,66 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/US_MIA_57-11_FR127/01_Overall/US_MIA_57-11_FR127_2012_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/US_MIA_57-11_FR127/01_Overall/US_MIA_57-11_FR127_2012_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/US_MIA_57-11_FR127/01_Overall/US_MIA_57-11_FR127_2012_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/US_MIA_57-11_FR127/01_Overall/US_MIA_57-11_FR127_2012_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Bildnis Moritz Buchner">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Bildnis Moritz Buchner</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>US_MIA_57-11</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1515 - 1525</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 40,6 x 27,3 x 0,5 cm (16 x 10 3/4 x 3/16 Zoll)<br />
+[Minneapolis Institute of Arts, revised 2012]</p>
+<p>Maße Bildträger: 40 x 27 cm<br />
+[Friedländer, Rosenberg 1979, No. 127]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Minneapolis Institute of Arts, revised 2012]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>Prinz Karl Anton von Hohenzollern-Sigmaringen [d. 1885]; sein Sohn, Prinz Leopold von Hohenzollern-Sigmaringen [d. 1905]; dessen Sohn, Prinz Wilhelm August Karl von Hohenzollern-Sigmaringen [d. 1927], Sigmaringen, Deutschland.[1] </li>
+<li>Oscar Franklin Oppenheimer, Frankfurt-am-Main</li>
+<li>Richard H. Zinser, Forest Hills, New York</li>
+<li>1957 vom MIA erworben (The William Hood Dunwoody Fund)</li>
+</ul>
+<p>[1] Im Getty Research Institute wurden im Teil II von "Ehemalige Sammlung des Fürsten von Hohenzollern-Sigmaringen" Fotografien beider Porträts gefunden. Die königliche Sammlung von Sigmaringen wurde etwa 1928 zerstreut. Beide Bilder erschienen nicht in der Hohenzollern Auktion von 1933.</p>
+<p>[Minneapolis Institute of Arts, revised 2012]</p></dd>  </dl>
+
+  <p class="longtext">These companion portraits have been identified as Moritz Büchner and his wife, Anna Lindacker Büchner. As a successful merchant and city alderman, Moritz Büchner was representative of the newly affluent middle class that resulted from the growth of capitalism in 16th-century Germany. Lucas Cranach, the court artist to Frederick III of Saxony, was commissioned by the Büchners to paint their likenesses for posterity. Here, Cranach captures the confidence, pride, and ambition that often accompany newly acquired wealth and improved social status. Cranach"s signature, a winged serpent, and the date of the painting appear on the extreme left of Moritz"s portrait.
+
+[http://www.artsconnected.org/resource/1796/portrait-of-moritz-buchner (accessed 21.05.2012)]
+
+Reverse of the panel:
+- the coats-of-arms of the families Büchner and Lindacker (?)
+
+[Minneapolis Institute of Arts, revised 2012]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"538476","objectname":"FR362F","inventarnummer":"DK_SMK_KMS2087","title":"Christus segnet die Kinder","link":"christus-segnet-die-kinder","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1537","dateend":"1547","longtext":"Christ stands in the middle, holding a little child on one arm while he blesses the attending parents\" children with the other.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"Varianten (halbfig\u00fcrlich):\n- DE_SHLM_1967-528_FR-none\n- DE_SMF_1723_FR217A\n- DE_HKH_HK-618_FR362\n- DE_SKD_GG1924_FR362A\n- DE_StWN_NONE-002_FR217\n- DE_SHLM_1989-480_FR-none\n\nVarianten (Dreiviertel- und Ganzfigur):\n- DE_AME_7414_FR-none\n- DE_SKD_GG1927_FR-none\n- DE_SMS_G691_FR-none\n\nKleinformate:\n- US_MMANY_1982-60-36_FR-none\n- DE_SMG_SG6_FR-none\n\nNachfolger:\n- DE_SML_kK15_FR-none","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 56,5 x 74,0 cm \nMa\u00dfe mit Rahmen: 66,5 x 85,5 x 1,5 cm\n\n[Statens Museum for Kunst, revised 2013]","provenienz":"- verzeichnet im Gottorf-Inventar 1710\n- verzeichnet im Gottorf-Inventar 1743, welches 1759 als Grundlage f\u00fcr die \u00dcberf\u00fchrung in die Kunstkammer Kopenhagen genutzt wurde (S. 59f).\n\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Birnenholz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"Varianten (halbfig\u00fcrlich):\n- DE_SHLM_1967-528_FR-none\n- DE_SMF_1723_FR217A\n- DE_HKH_HK-618_FR362\n- DE_SKD_GG1924_FR362A\n- DE_StWN_NONE-002_FR217\n- DE_SHLM_1989-480_FR-none\n\nVarianten (Dreiviertel- und Ganzfigur):\n- DE_AME_7414_FR-none\n- DE_SKD_GG1927_FR-none\n- DE_SMS_G691_FR-none\n\nKleinformate:\n- US_MMANY_1982-60-36_FR-none\n- DE_SMG_SG6_FR-none\n\nNachfolger:\n- DE_SML_kK15_FR-none","ausstellungsgeschichte":"Kunstforeningen, Gl. Strand, 1896\nStockholm, 1988\nS\u00f8lvgade, Kopenhagen 2002","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"539136","objectname":"FR314A","inventarnummer":"DK_SMK_KMSsp720","title":"Bildnis Martin Luthers","link":"bildnis-martin-luthers","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1532","datebeginn":"1532","dateend":"1532","longtext":"Portrait of Martin Luther. He is wearing a black coat and a hat and he is painted on a blue\/greyish background.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"- Lithografie des Gem\u00e4ldes (seitenverkehrt) von einem unbekannten K\u00fcnstler (J. L. Lund?)","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 37,0 x 23,5 cm\nMa\u00dfe mit Rahmen: 52,5 x 23,5 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1674: K\u00f6nigliche Kunstkammer, Kopenhagen\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"- Lithografie des Gem\u00e4ldes (seitenverkehrt) von einem unbekannten K\u00fcnstler (J. L. Lund?)","ausstellungsgeschichte":"Kopenhagen 2002\nHamburg 2003, Nr. 44\nRosenborg 2010","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

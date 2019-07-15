@@ -1,0 +1,66 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/CH_KMB_G1977-37_FR253/01_Overall/CH_KMB_G1977-37_FR253_2010-03_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/CH_KMB_G1977-37_FR253/01_Overall/CH_KMB_G1977-37_FR253_2010-03_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/CH_KMB_G1977-37_FR253/01_Overall/CH_KMB_G1977-37_FR253_2010-03_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/CH_KMB_G1977-37_FR253/01_Overall/CH_KMB_G1977-37_FR253_2010-03_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Urteil des Paris">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Urteil des Paris</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>CH_KMB_G1977-37</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1528 - 1528</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 84,7 x 57 x 0,55 cm<br />
+(gedünnt und parkettiert, Format weitgehend original)<br />
+[Heydenreich, CDA 2010]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Buchenholz (augenscheinlich)<br />
+[Heydenreich, CDA  2010]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>
+<p>ab c. 1936 in der Sammlung Göring</p>
+</li>
+<li>
+<p>31.08.1954.08.31 Rückgabe an R. v. Hirsch [1]</p>
+</li>
+<li>
+<p>Schenkung Martha und Robert von Hirsch, Basel 1977</p>
+</li>
+</ul>
+<p>[1]Kunstsammlung Göring, DHM Datenbank:<br />
+<a href="http://www.dhm.de/datenbank/goering/dhm_goering.php?seite=5&amp;fld_0=RMG00471">http://www.dhm.de/datenbank/goering/dhm_goering.php?seite=5&amp;fld_0=RMG00471</a></p>
+<p>[Öffentliche Kunstsammlung Basel, revised 2011]</p></dd>  </dl>
+
+  <p class="longtext">Paris is depicted wearing knight"s armor, sitting on a stone on the left side of the painting. Mercury stands beside him dressed in make-believe armor and introduces him to the three Goddess"s. They present themselves as nudes in different poses, wearing only transparent veils and chains. The central figure (Venus?), who looks out of the painting also wears a wide brimmed hat. Paris has tied his horse to a tree behind him. There are dense forests in the middle distance and on the right there is a tree with a coat-of-arms. A castle hill and a town are depicted in the landscape behind. Cupid is in a cloud and targets the group with his bow and arrow. 
+
+[Öffentliche Kunstsammlung Basel, revised 2011]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"539128","objectname":"FR244","inventarnummer":"DK_SMK_KMSsp719","title":"Venus mit Amor als Honigdieb","link":"venus-mit-amor-als-honigdieb","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1530","datebeginn":"1530","dateend":"1530","longtext":"A naked lady stands in the middle (Venus) and at her right side stands a little boy with wings (Cupido). In his right hand he holds some honey. The background of the painting consists of trees, a village and some mountains.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"- \u00e4hnliches Gem\u00e4lde aus der Sammlung Demidoff und Comte de Lambrety, verkauft in Palais d\"Orsay 23.06.1978, abgebildet in Beurdeley, Michel: Les ventes publiques en 1978: bilan et perspectives, in: L\"oeil, Nr. 284, 1979-03, S. 22\n\n\u00c4hnliche Motive bei folgenden Gem\u00e4lden (vgl. Friedl\u00e4nder & Rosenberg, 1978):\n- FR245\n- FR247\n- FR248\n- FR398\n- FR398C\n- FR400\n\n- UK_NGL_6344_FR-none\n- DE_SMS_G199_FR246A\n- DE_BStGS-FGK_15272_FR-none\n- DE_GNMN_Gm213_FR398A\n- DE_GNMN_Gm1097_FR398B\n- DE_smbGG_1190_FR395\n- NL_KMMO_KM110-841_FR396\n\nKopie nach Cranach d. \u00c4.:\n- US_MMANY_1975-1-135_FR-none\n\nNachahmer:\n- DE_BStGS_13261_FR-none","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 58,0 x 38,0 cm\nMa\u00dfe mit Rahmen: 68,5 x 49,5 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1710: im Gottorf-Inventar\n- 1759: von Schloss Gottorf in die K\u00f6nigliche Kunstkammer in Kopenhagen\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Buchenholz\n[Klein, Bericht 2013]","verwandtearbeiten":"- \u00e4hnliches Gem\u00e4lde aus der Sammlung Demidoff und Comte de Lambrety, verkauft in Palais d\"Orsay 23.06.1978, abgebildet in Beurdeley, Michel: Les ventes publiques en 1978: bilan et perspectives, in: L\"oeil, Nr. 284, 1979-03, S. 22\n\n\u00c4hnliche Motive bei folgenden Gem\u00e4lden (vgl. Friedl\u00e4nder & Rosenberg, 1978):\n- FR245\n- FR247\n- FR248\n- FR398\n- FR398C\n- FR400\n\n- UK_NGL_6344_FR-none\n- DE_SMS_G199_FR246A\n- DE_BStGS-FGK_15272_FR-none\n- DE_GNMN_Gm213_FR398A\n- DE_GNMN_Gm1097_FR398B\n- DE_smbGG_1190_FR395\n- NL_KMMO_KM110-841_FR396\n\nKopie nach Cranach d. \u00c4.:\n- US_MMANY_1975-1-135_FR-none\n\nNachahmer:\n- DE_BStGS_13261_FR-none","ausstellungsgeschichte":"Stockholm 1988\nKopenhagen 2002\nHamburg 2003, Nr. 63\nGotha\/Kassel 2015, Nr. 60","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"539600","objectname":"FR337A","inventarnummer":"DK_SMK_KMSsp726","title":"Sibylle, Kurf\u00fcrstin von Sachsen","link":"sibylle-kurfurstin-von-sachsen","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1533","datebeginn":"1533","dateend":"1533","longtext":"Portrait of the Electress Sibyl of Saxony in a black dress, with a blue background.\n\n[Statens Museum for Kunst, revised 2013]","relatedworks":"Gegenst\u00fcck:\n- DK_SMK_KMSsp725_FR-none\n\nVersionen:\n- Knoedler & Co gall., London (FR337). \n- Sammlung von Nemes, M\u00fcnchen (FR337B)","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 20 x 14 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- vor 1674: K\u00f6nigliche Kunstkammer, Kopenhagen\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","beschriftung":"- auf Halsband und Haube:\n\".ALS.IN.EHREN.\"\n\n[cda 2013]","verwandtearbeiten":"Gegenst\u00fcck:\n- DK_SMK_KMSsp725_FR-none\n\nVersionen:\n- Knoedler & Co gall., London (FR337). \n- Sammlung von Nemes, M\u00fcnchen (FR337B)","ausstellungsgeschichte":"Kopenhagen 2002\nHamburg 2003, Nr. 57","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp726_FR337A\/01_Overall\/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp726_FR337A\/01_Overall\/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp726_FR337A\/01_Overall\/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp726_FR337A\/01_Overall\/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp726_FR337A\/01_Overall\/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp726_FR337A\/01_Overall\/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_28-221_FR254\/01_Overall\/US_MMANY_28-221_FR254_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_177a_FR187-188\/01_Overall\/CH_KMB_177a_FR187-188_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-48_FR249\/01_Overall\/US_MMANY_1982-60-48_FR249_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp731_FR036\/01_Overall\/DK_SMK_KMSsp731_FR036_2008-04-20_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

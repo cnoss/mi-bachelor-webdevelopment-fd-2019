@@ -1,0 +1,55 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/DK_SMK_KMSsp726_FR337A/01_Overall/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/DK_SMK_KMSsp726_FR337A/01_Overall/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/DK_SMK_KMSsp726_FR337A/01_Overall/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/DK_SMK_KMSsp726_FR337A/01_Overall/DK_SMK_KMSsp726_FR337A_2013-09-27_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Sibylle, Kurfürstin von Sachsen">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Sibylle, Kurfürstin von Sachsen</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>DK_SMK_KMSsp726</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1533 - 1533</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 20 x 14 cm<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>vor 1674: Königliche Kunstkammer, Kopenhagen<br />
+[Statens Museum for Kunst, revised 2013]</li>
+</ul></dd>  </dl>
+
+  <p class="longtext">Portrait of the Electress Sibyl of Saxony in a black dress, with a blue background.
+
+[Statens Museum for Kunst, revised 2013]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"427113","objectname":"FR253","inventarnummer":"CH_KMB_G1977-37","title":"Urteil des Paris","link":"urteil-des-paris","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1528","datebeginn":"1528","dateend":"1528","longtext":"Paris is depicted wearing knight\"s armor, sitting on a stone on the left side of the painting. Mercury stands beside him dressed in make-believe armor and introduces him to the three Goddess\"s. They present themselves as nudes in different poses, wearing only transparent veils and chains. The central figure (Venus?), who looks out of the painting also wears a wide brimmed hat. Paris has tied his horse to a tree behind him. There are dense forests in the middle distance and on the right there is a tree with a coat-of-arms. A castle hill and a town are depicted in the landscape behind. Cupid is in a cloud and targets the group with his bow and arrow. \n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 84,7 x 57 x 0,55 cm\n(ged\u00fcnnt und parkettiert, Format weitgehend original)\n[Heydenreich, CDA 2010]","provenienz":"- ab c. 1936 in der Sammlung G\u00f6ring\n- 31.08.1954.08.31 R\u00fcckgabe an R. v. Hirsch [1]\n\n- Schenkung Martha und Robert von Hirsch, Basel 1977\n\n[1]Kunstsammlung G\u00f6ring, DHM Datenbank:\nhttp:\/\/www.dhm.de\/datenbank\/goering\/dhm_goering.php?seite=5&fld_0=RMG00471\n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","materialtechnik":"Malerei auf Buchenholz (augenscheinlich)\n[Heydenreich, CDA  2010]","ausstellungsgeschichte":"D\u00fcsseldorf 2017, Nr. 132","bildurl":"http:\/\/lucascranach.org\/thumbnails\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"417136","objectname":"FR213","inventarnummer":"US_MMANY_1976-201-11","title":"Samson und Delilah","link":"samson-und-delilah","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1523","dateend":"1535","longtext":"The Philistine Delilah cuts the hair of the Old Testament judge Samson thereby sapping him of his strength. The ass\"s jawbone, which Samson used to slay a thousand Philistines, uselessly lies nearby. In the courtly setting of Cranach\"s time, this subject had an allegorical meaning, warning men of the pitfalls of love, or women of the deception of men.\n\nThe painting dates around 1529-30.\n\n[http:\/\/www.metmuseum.org\/works_of_art] (accessed: 11.05.2011)","relatedworks":"Versionen:\n- DE_KSW_G836_FR140\n- DE_SKD_GG1929_FR357E\n- FR212 \n\nHolzschnitt:\n- Lucas van Leyden, \"Samson und Delilah\", aus der Weibermacht Reihe, c. 1514. Holzschnitt, 16 1\/8 \u00d7 11 3\/8 Zoll (41 \u00d7 28,9 cm). The British Museum, London (1849,1027.89)","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 57,3 \u00d7 37,4 \u00d7 0,6 - 0,8 cm (22 9\/16 \u00d7 14 3\/4 \u00d7 1\/4 - 5\/16 Zoll)\n[Cat. New York 2013, 59, No. 12]\n\n56,9 x 37,4 cm\n[The Metropolitan Museum of Art, revised 2011]","provenienz":"- Bis 1961 Barrie Simmons \n- 14.06.1961 verkauft an Markham, Sotheby\"s, London, Nr. 107, f\u00fcr \u00a311,000; verkauft f\u00fcr \u00a310,000 an Kleinberger f\u00fcr Payson\n- 1961-1975 Joan Whitney Payson, New York und Manhasset\n\n[The Metropolitan Museum of Art, revised 2011]","materialtechnik":"Malerei auf Buchenholz (Fagus sp.)\n[The Metropolitan Museum of Art, revised 2011]\n[Klein, Bericht 2006]","beschriftung":"\"A series of three linear incisions on the reverse, two vertical parallel lines approximately 3cm high crossed diagonally by a third, may be a panel maker\"s mark.\"\n\n[US_MMANY_ 1976.201.11_FR213_2008-03-20_ExaminationandConditionReport.pdf]","verwandtearbeiten":"Versionen:\n- DE_KSW_G836_FR140\n- DE_SKD_GG1929_FR357E\n- FR212 \n\nHolzschnitt:\n- Lucas van Leyden, \"Samson und Delilah\", aus der Weibermacht Reihe, c. 1514. Holzschnitt, 16 1\/8 \u00d7 11 3\/8 Zoll (41 \u00d7 28,9 cm). The British Museum, London (1849,1027.89)","ausstellungsgeschichte":"Huntington 1963, nicht nummeriert \nBr\u00fcssel 2010, Nr. 124","bildurl":"http:\/\/lucascranach.org\/thumbnails\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_28-221_FR254\/01_Overall\/US_MMANY_28-221_FR254_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp725_FR337A\/01_Overall\/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp730_FR036\/01_Overall\/DK_SMK_KMSsp730_FR036_2008-04-20_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

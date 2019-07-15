@@ -1,0 +1,61 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/CH_KMB_177_FR187-188/01_Overall/CH_KMB_177_FR187-188_2010-03_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/CH_KMB_177_FR187-188/01_Overall/CH_KMB_177_FR187-188_2010-03_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/CH_KMB_177_FR187-188/01_Overall/CH_KMB_177_FR187-188_2010-03_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/CH_KMB_177_FR187-188/01_Overall/CH_KMB_177_FR187-188_2010-03_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Bildnis Martin Luther">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Bildnis Martin Luther</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>CH_KMB_177</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1525 - 1525</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße der bemalten Fläche: 9,9 cm (Durchmesser)<br />
+Maße mit Rahmen: 13,5 (Durchmesser) x 1,7 cm (Tiefe)<br />
+[Heydenreich, cda 2010]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Buchenholz (Fagus sp.)<br />
+[Öffentliche Kunstsammlung Basel, revised 2011]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>
+<p>Geschenk von Prof. Johann Rudolf Thurneysen-Faesch 1762<br />
+[Öffentliche Kunstsammlung Basel, revised 2011]</p>
+</li>
+<li>
+<p>"Nach H. Koegler (Jahresbericht der Öffentl. Kunstsammlung 1919, 37) haben sich beiden Rundbilder (177a)vermutlich schon zu Holbeins Zeiten in Basel befunden, da Holbein dieses Lutherbildnis als Vorlage für einen Holzschnitt benutzt hat." [Friedländer, Rosenberg 1932]</p>
+</li>
+</ul></dd>  </dl>
+
+  <p class="longtext">Half-length portrait depicting Luther in three quarter profile, facing right against a turquoise background
+
+[Öffentliche Kunstsammlung Basel, revised 2011]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"539136","objectname":"FR314A","inventarnummer":"DK_SMK_KMSsp720","title":"Bildnis Martin Luthers","link":"bildnis-martin-luthers","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1532","datebeginn":"1532","dateend":"1532","longtext":"Portrait of Martin Luther. He is wearing a black coat and a hat and he is painted on a blue\/greyish background.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"- Lithografie des Gem\u00e4ldes (seitenverkehrt) von einem unbekannten K\u00fcnstler (J. L. Lund?)","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 37,0 x 23,5 cm\nMa\u00dfe mit Rahmen: 52,5 x 23,5 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1674: K\u00f6nigliche Kunstkammer, Kopenhagen\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"- Lithografie des Gem\u00e4ldes (seitenverkehrt) von einem unbekannten K\u00fcnstler (J. L. Lund?)","ausstellungsgeschichte":"Kopenhagen 2002\nHamburg 2003, Nr. 44\nRosenborg 2010","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"539715","objectname":"FR338E","inventarnummer":"DK_SMK_KMSsp729","title":"Bildnis Johanns des Best\u00e4ndigen, Kurf\u00fcrst von Sachsen","link":"bildnis-johanns-des-bestandigen-kurfurst-von-sachsen","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1528","dateend":"1538","longtext":"Portrait of the Elector John the Steadfast of Saxony in fur coat and with a greyish background.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"Varianten:\n- DE_GNMN_Gm222a_FR338A\n- DE_WSE_M0073b_FR-none (Monogrammist ILG (Johann Lange, Gotha?))","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 46,5 x 24,5 cm\nMa\u00dfe mit Rahmen: 53,0 x 31,0 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1710 im Gottorf-Inventar\n- 1759 von Schloss Gottorf in die K\u00f6nigliche Kunstkammer in Kopenhagen\n\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"Varianten:\n- DE_GNMN_Gm222a_FR338A\n- DE_WSE_M0073b_FR-none (Monogrammist ILG (Johann Lange, Gotha?))","ausstellungsgeschichte":"Kopenhagen 2002\nHamburg 2003, Nr. 25","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_46-179-1_FR-none\/01_Overall\/US_MMANY_46-179-1_FR-none_2012-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_29-100-24_FR056\/01_Overall\/US_MMANY_29-100-24_FR056_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_G1977-37_FR253\/01_Overall\/CH_KMB_G1977-37_FR253_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P179_FR279\/01_Overall\/PRIVATE_NONE-P179_FR279_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS2087_FR362F\/01_Overall\/DK_SMK_KMS2087_FR362F_2009-06-22_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_46-179-2_FR-none\/01_Overall\/US_MMANY_46-179-2_FR-none_2012-12_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

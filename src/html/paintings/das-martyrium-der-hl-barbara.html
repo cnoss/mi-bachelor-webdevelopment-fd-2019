@@ -1,0 +1,70 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/US_MMANY_57-22_FR021/01_Overall/US_MMANY_57-22_FR021_2007-08_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/US_MMANY_57-22_FR021/01_Overall/US_MMANY_57-22_FR021_2007-08_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/US_MMANY_57-22_FR021/01_Overall/US_MMANY_57-22_FR021_2007-08_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/US_MMANY_57-22_FR021/01_Overall/US_MMANY_57-22_FR021_2007-08_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Das Martyrium der Hl. Barbara">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Das Martyrium der Hl. Barbara</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>US_MMANY_57-22</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1505 - 1515</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 153,7 × 138,1 × 1,1 cm (60 1/2 × 54 3/8 × 7/16 Zoll)<br />
+Maße Bildfläche: 152,1 × 134,6 cm (59 7/8 × 53 Zoll)</p>
+<p>[Cat. New York 2013, 47, No. 9]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Lindenholz<br />
+[Cat. New York 2013, 47, No. 9]<br />
+[Klein, Bericht 2013]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>Dorfkirche Goseck, nahe Naumburg (verkauft an Zech-Burkersroda)</li>
+<li>Grafen von Zech-Burkersroda, Kapelle des Schlosses Goseck, Goseck (wohl ab 1840, sicher ab 1844); später München (bis 1956)</li>
+<li>verkauft von entweder Margarethe, Gräfin von Zech-Burkersroda, oder ihrer Schwägerin Baronin Elisabeth, Gräfin von Zech-Burkersroda, an Böhler</li>
+<li>[Böhler, München, ab 1956]</li>
+<li>[Hougershofer, Zürich; verkauft an Rosenberg &amp; Stiebel] </li>
+<li>[Rosenberg &amp; Stiebel, New York, bis 1957]</li>
+<li>[verkauft an das MMA] Rogers-Stiftung</li>
+</ul>
+<p>[Cat. New York 2013, 47, No. 9]</p></dd>  </dl>
+
+  <p class="longtext">According to "Der Heiligen Leben" (The Lives of the Saints),[1] Barbara was locked in a tower by her heathen father, Dioscorus, to protect her from avid suitors. While there, she was baptized as a Christian and had a third window installed to symbolize the Trinity. Upon learning of this, Dioscorus flew into a rage and drew his sword to kill her. Barbara fled to a mountain cave, but was betrayed and delivered to a judge, who ordered her to be tortured for refusing to recant her faith. Having survived whipping, burning, beating, and the hacking off of her breasts, she was sentenced to decapitation. Dioscorus led his daughter up a mountain, where he cut off her head, but on the way down he was killed by a bolt of lightning.
+
+This painting shows a luxuriously dressed Barbara kneeling before her father, who raises his sword (falchion) to behead her. Artistic license has been taken with Dioscorus"s attire: his helmet is a fantastical creation all" antica, a style popular at the time, and his knee defenses (polyens), typically steel, are heavily gilt.[2] The elderly man in the dark green robe and hat with earflaps standing behind Barbara is probably the judge who ordered her beheading. To his left is a courtly-looking fellow wearing a fur-trimmed yellow damask robe. One of the two soldiers to his right wears armor meant to look either antique or foreign. The large round reinforce on his left shoulder and the short sleeve of the mail shirt protruding from
+under his shoulder defense are usually associated with mid-fifteenth-century Italian armor. As Dirk Breiding noted, "His gauntlets with "open cuffs" on the inside, the helmet with reinforcing discs on the sides (and a fantastical visor), and the skirt (made of downward-overlapping metal scales), especially its fabric part with the lower dagged edge and attached bells, were all fashionable particularly in German-speaking areas during the early to mid-fifteenth century."[3]
+
+[1] Der Heiligen Leben of 1488 (Nuremberg: Anton Koberger), or a later version of it, was likely the edition of the lives of the saints that informed Cranach"s depiction of Saint Barbara"s life, as the earlier ones do not include her story.
+[2] My thanks to Dirk H. Breiding, Assistant Curator, Department of Arms and Armor, MMA, for his comments on the armor worn by the figures in this painting (email to Maryan Ainsworth, March 27, 2012, curatorial files, Department of European Paintings, MMA).
+[3] Ibid.
+
+[Cat. New York 2013, 47, 284, No. 9]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"538998","objectname":"FR252","inventarnummer":"DK_SMK_KMSsp718","title":"Das Parisurteil","link":"das-parisurteil","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1527","datebeginn":"1527","dateend":"1527","longtext":"Three naked ladies stands in the middle (the goddesses Venus, Juno and Minerva), on the right side a horse standing behind a tree, on the left side a man in reddish clothes bent over a man in armor lying in the grass (the son of King Priam of Troy, Paris). The background of the painting is a landscape with mountains and trees. \n[Statens Museum for Kunst, revised 2013]","relatedworks":"KKSgb5069, \"Parisurteil\", SMK, Holzschnitt, 366 x 257 mm.\n\nWeitere verwandte Werke:\nGleiches Motiv, Holzschnitt:\n- 1508 (B.114) (Geisberg XVIII, 10) - (PPS: 26.62).\n\nGem\u00e4lde (vgl. Fried\u00e4nder & Rosenberg):\n- FR041\n- FR256 (gestohlen 1945)\n- FR257 \n- FR409a \n- US_KAMFW_AP20004-03_FR041\n- US_SAM_52-38_FR118\n- CH_KMB_G1977-37_FR253\n- US_MMANY_28-221_FR254\n- DE_SKK_0109_FR255\n- US_SLAM_28-1932_FR258\n- UK_RCL_RCIN405757_FR-none\n- DE_AGGD_15_FR256\n- DE_SPSG_GKI1185_FR409B\n- DE_SMG_SG672_FR409","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 50,5 x 38,0 cm\nMa\u00dfe mit Rahmen: 62,2 x 49,9 cm \n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1744 erworben\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"KKSgb5069, \"Parisurteil\", SMK, Holzschnitt, 366 x 257 mm.\n\nWeitere verwandte Werke:\nGleiches Motiv, Holzschnitt:\n- 1508 (B.114) (Geisberg XVIII, 10) - (PPS: 26.62).\n\nGem\u00e4lde (vgl. Fried\u00e4nder & Rosenberg):\n- FR041\n- FR256 (gestohlen 1945)\n- FR257 \n- FR409a \n- US_KAMFW_AP20004-03_FR041\n- US_SAM_52-38_FR118\n- CH_KMB_G1977-37_FR253\n- US_MMANY_28-221_FR254\n- DE_SKK_0109_FR255\n- US_SLAM_28-1932_FR258\n- UK_RCL_RCIN405757_FR-none\n- DE_AGGD_15_FR256\n- DE_SPSG_GKI1185_FR409B\n- DE_SMG_SG672_FR409","ausstellungsgeschichte":"S\u00f8lvgade, SMK, Kopenhagen, 2002-04-26 - 2002-09-08\nHamburg 2003, Nr. 67\nS\u00f8lvgade, SMK, Kopenhagen, 2009-05-30\nBr\u00fcssel, 2010-10-20 - 2011-01-23","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp718_FR252\/01_Overall\/DK_SMK_KMSsp718_FR252_2010-06-08_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"416961","objectname":"FR-none","inventarnummer":"US_MMANY_1982-60-35","title":"Christus und die Ehebrecherin","link":"christus-und-die-ehebrecherin","zuschreibung":"Lucas Cranach der J\u00fcngere","dated":"0","datebeginn":"1540","dateend":"1550","longtext":"Jesus is depicted in the centre of the image in a blue robe with a red cloak. He points at the adultress with his right hand and holds her right lower arm in his left hand. She wears an orange-red dress and has lowered her head. A soldier holds her other arm. Another soldier stands in the foreground holding stones in his hands. More men stand behind the soldier facing towards Jesus.","relatedworks":"Kopie:\n- DE_SMG_SG11_FR-none\n- DE_SMG_SG6_FR-none","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger (mit erg\u00e4nztem Rand): 16,1 x 21,6 x ca. 0,3 cm\nMa\u00dfe Bildfl\u00e4che: 14,3 x 20,1 cm\n\n[The Metropolitan Museum of Art, revised 2011]","provenienz":"- Bis 1906 in der Sammlung D. Schevitch, Paris \n- 1906 (April 4-7) verkauft in der Galerie Georges Petit, Paris, Nr. 3, als Cranach, f\u00fcr Fr 1,350 an Drey\n- Von 1906 in der Sammlung A. S. Drey, Paris und M\u00fcnchen\n- Bis 1911 in der Sammlung Gustav von Gerhardt, Budapest \n- 1911 (November 10) Verkauf des Besitztums, Lepke\"s, Berlin, Nr. 81, als Lucas Cranach der J\u00fcngere\n- 1928 (Feb. 2-3) Verkauf, American Art Association, New York, Nr. 108, \"To be sold to close an Estate,\" f\u00fcr $500 \n- Bis 1936 R. Ederheimer, New York \n- Von 1936 Henry Schniewind, New York\n- Ab 1945-1955 Mrs. Arthur Corwin, Greenwich, Conn\n- Verkauft an Newhouse\n- 1955 erworben bei Linksy von Newhouse Galleries, New York\n- 1955-1980 Mr. und Mrs. Jack Linsky, New York \n- 1980-1982 Mrs. Jack (Belle) Linsky, New York\n\n[The Metropolitan Museum of Art, revised 2011]","materialtechnik":"Malerei auf Buchenholz (Fagus sp.)\n[Klein, Bericht 2013]\n[The Metropolitan Museum of Art, revised 2011]","beschriftung":"- Oberer Rand:\n\"WER VNTER EVCH ON SVNDE IST. DER WERFFE DEN ERSTEN STEIN AVFF SIE. ~IOH~VIII~\"","verwandtearbeiten":"Kopie:\n- DE_SMG_SG11_FR-none\n- DE_SMG_SG6_FR-none","ausstellungsgeschichte":"Cambridge, Mass. 1936, Nr. 8 (als Lucas Cranach der \u00c4ltere)\nNew York 1960, Nr. 16","bildurl":"http:\/\/lucascranach.org\/thumbnails\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp720_FR314A\/01_Overall\/DK_SMK_KMSsp720_FR314A_2013-08-19_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1628_FR235\/01_Overall\/CH_KMB_1628_FR235_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMS3674_FR038\/01_Overall\/DK_SMK_KMS3674_FR038_2004-11-30_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/NL_Mh_890_FR-none\/01_Overall\/NL_Mh_890_FR-none_2014-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp723_FR346\/01_Overall\/DK_SMK_KMSsp723_FR346_2009-03-13_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

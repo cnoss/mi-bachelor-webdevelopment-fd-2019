@@ -1,0 +1,54 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/DK_SMK_KMSsp725_FR337A/01_Overall/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/DK_SMK_KMSsp725_FR337A/01_Overall/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/DK_SMK_KMSsp725_FR337A/01_Overall/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/DK_SMK_KMSsp725_FR337A/01_Overall/DK_SMK_KMSsp725_FR337A_2013-09-27_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Bildnis Johann Friedrichs des Großmütigen, Kurfürst von Sachsen (1503-1554)">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Bildnis Johann Friedrichs des Großmütigen, Kurfürst von Sachsen (1503-1554)</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>DK_SMK_KMSsp725</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1533 - 1533</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 20,0 x 14,0 cm<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>vor 1674: Königliche Kunstkammer, Kopenhagen<br />
+[Statens Museum for Kunst, revised 2013]</li>
+</ul></dd>  </dl>
+
+  <p class="longtext">Portrait of the Elector John Frederic the Magnanimous of Saxony in a fur coat. Blue background.
+[Statens Museum for Kunst, revised 2013]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"539715","objectname":"FR338E","inventarnummer":"DK_SMK_KMSsp729","title":"Bildnis Johanns des Best\u00e4ndigen, Kurf\u00fcrst von Sachsen","link":"bildnis-johanns-des-bestandigen-kurfurst-von-sachsen","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1528","dateend":"1538","longtext":"Portrait of the Elector John the Steadfast of Saxony in fur coat and with a greyish background.\n[Statens Museum for Kunst, revised 2013]","relatedworks":"Varianten:\n- DE_GNMN_Gm222a_FR338A\n- DE_WSE_M0073b_FR-none (Monogrammist ILG (Johann Lange, Gotha?))","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 46,5 x 24,5 cm\nMa\u00dfe mit Rahmen: 53,0 x 31,0 cm\n[Statens Museum for Kunst, revised 2013]","provenienz":"- 1710 im Gottorf-Inventar\n- 1759 von Schloss Gottorf in die K\u00f6nigliche Kunstkammer in Kopenhagen\n\n[Statens Museum for Kunst, revised 2013]","materialtechnik":"Malerei auf Holz\n[Statens Museum for Kunst, revised 2013]","verwandtearbeiten":"Varianten:\n- DE_GNMN_Gm222a_FR338A\n- DE_WSE_M0073b_FR-none (Monogrammist ILG (Johann Lange, Gotha?))","ausstellungsgeschichte":"Kopenhagen 2002\nHamburg 2003, Nr. 25","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"417937","objectname":"FR336A","inventarnummer":"CH_KMB_1228","title":"Bildnis Johann Friedrich der Grossm\u00fctige, Kurf\u00fcrst von Sachsen (1503-1554)","link":"bildnis-johann-friedrich-der-grossmutige-kurfurst-von-sachsen-1503-1554","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1533","datebeginn":"1533","dateend":"1533","longtext":"A half-length portrait depicting the sitter in half profile, facing right against a light blue background. His hands are folded in front of his stomach. \n\nReverse: \n- black\n- two coats-of-arms executed on paper are glued onto the reverse \n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","relatedworks":"- Eventuelles Gegenst\u00fcck?:\n\"Sibylle von Cleve\", Sammlung Kisters, Kreuzlingen\n[vgl. Koepplin, Exhib. Cat. Basel 1974, Bd. 2, 797, under Note 302, No. 194]\n[Cicerone, IX, 1917, 371, with Fig.]\n\n- \"Bildnis des Kurf\u00fcrsten Johann Friedrich von Sachsen\", bezeichnet mit Schlange, datiert \"1532\". Auf Lindenholz. 19,7 x 13,3 cm. Kreuzlingen, Sammlung Heinz Kisters\n[Koepplin, Exhib. Cat. Basel 1974, 302, No. 194]\n\n[Kunstmuseum Basel 2011]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 20,6 x 14,5 x 0,3 cm (original)\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","provenienz":"- 1921 Depositum der Prof. J. J. Bachofen-Burckhard-Stiftung\n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","materialtechnik":"Malerei auf Buchenholz (augenscheinlich)\n[Heydenreich, cda 2010]\n\n\"Auf Lindenholz\"\n[Koepplin, Exhib. Cat. Basel 1974, 302, No. 194]","beschriftung":"- Am Hemdkragen in wei\u00dfer Farbe gemalte, \ngestickte Devise: \"ALS * IN * EREN\/ BEN *ALS *IN * ER...\"","verwandtearbeiten":"- Eventuelles Gegenst\u00fcck?:\n\"Sibylle von Cleve\", Sammlung Kisters, Kreuzlingen\n[vgl. Koepplin, Exhib. Cat. Basel 1974, Bd. 2, 797, under Note 302, No. 194]\n[Cicerone, IX, 1917, 371, with Fig.]\n\n- \"Bildnis des Kurf\u00fcrsten Johann Friedrich von Sachsen\", bezeichnet mit Schlange, datiert \"1532\". Auf Lindenholz. 19,7 x 13,3 cm. Kreuzlingen, Sammlung Heinz Kisters\n[Koepplin, Exhib. Cat. Basel 1974, 302, No. 194]\n\n[Kunstmuseum Basel 2011]","bildurl":"http:\/\/lucascranach.org\/thumbnails\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1228_FR336A\/01_Overall\/CH_KMB_1228_FR336A_2010-03_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_11-15_FR230E\/01_Overall\/US_MMANY_11-15_FR230E_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/NL_RM_SK-A-2561_FR-none\/01_Overall\/NL_RM_SK-A-2561_FR-none_2013-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1975-1-136_FR403B\/01_Overall\/US_MMANY_1975-1-136_FR403B_2007-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_29-100-24_FR056\/01_Overall\/US_MMANY_29-100-24_FR056_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_55-220-2_FR314F\/01_Overall\/US_MMANY_55-220-2_FR314F_2007-10_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/NL_Mh_890_FR-none\/01_Overall\/NL_Mh_890_FR-none_2014-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_28-221_FR254\/01_Overall\/US_MMANY_28-221_FR254_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_08-19_FR424B\/01_Overall\/US_MMANY_08-19_FR424B_2008-07_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

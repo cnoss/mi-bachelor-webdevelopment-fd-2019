@@ -1,0 +1,74 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/CH_KMB_1628_FR235/01_Overall/CH_KMB_1628_FR235_2010-03_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/CH_KMB_1628_FR235/01_Overall/CH_KMB_1628_FR235_2010-03_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/CH_KMB_1628_FR235/01_Overall/CH_KMB_1628_FR235_2010-03_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/CH_KMB_1628_FR235/01_Overall/CH_KMB_1628_FR235_2010-03_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Lucretia">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Lucretia</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>CH_KMB_1628</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1520 - 1530</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 79 x 64 x 0,3-0,5 cm<br />
+(gedünnt, nachträglich  aufgedoppelt  auf 0,9 cm Stärke und parkettiert; Bildränder überarbeitet; Format vermutlich leicht verändert)<br />
+[Heydenreich, CDA 2010]</p>
+<p>Maße mit Rahmen: 95,5 x 80,0 cm<br />
+[Öffentliche Kunstsammlung Basel, revised 2011]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Öffentliche Kunstsammlung Basel, revised 2011]</p>
+<p>"Auf Lindenholz"<br />
+[Koepplin, Exhib. Cat. Basel 1974, 666, No. 583]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>
+<p>Paris Sammlung Mme. Paul Guery. Versteigerung Mme. E. M. des C., Paris, 19. XI. 1928, Nr. 14<br />
+[Friedländer, Rosenberg 1932, 66]</p>
+</li>
+<li>
+<p>Vente Gal. Charpentier, Paris, 8. Dez. 1933<br />
+[Koepplin, Exhib. Cat. Basel 1974, 666, No. 583] </p>
+</li>
+<li>
+<p>Ankauf 1934<br />
+[Öffentliche Kunstsammlung Basel, revised 2011]</p>
+</li>
+</ul></dd>  </dl>
+
+  <p class="longtext">Lucretia is depicted in three quarter profile against a dark background as a nude figure wearing only a transparent veil and a double row of red pearls. Her left arm is angled behind her head, while her right one is raised in front of her chest holding a dagger.
+
+[Öffentliche Kunstsammlung Basel, revised 2011]
+
+According to the legend Lucretia lived in the 6th century BC and was the beautiful and virtuous wife of the roman Collatinus. The roman King"s son - Sextus Tarquinius fell in love with her. During a stay in her house Sextus threatened to kill her and shame her honour if she did not surrender to him. After the rape Lucretia had her father and husband vow vengeance and then she stabbed herself. The event led to an uprising in which the royal family was overthrown and the Roman Empire became a Republic. 
+Depictions of Lucretia who was seen as the epitomy of female virtue, chastity, fidelity and honour enjoyed great popularity, particularly in the 16th century. 
+[Literature: Bierende 2002, Follak 2002, Livius 1909]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"427112","objectname":"FR224","inventarnummer":"CH_KMB_1227","title":"Madonna mit Kind","link":"madonna-mit-kind","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1529","datebeginn":"1529","dateend":"1529","longtext":"The seated Virgin as a three quarter length figure turned slightly to the left, depicted with the naked Christ as a child on her knee. He holds a piece of bread in his right hand.\n\n[\u00d6ffentliche Kunstsammlung Basel, revised 2011]","relatedworks":"- \"Flechsig und Friedl\u00e4nder, Rosenberg verglichen das Bild mit dem Madonnen in Leningrad (FR187) [Schade 1974, Plate 107] \nKopie einer Variante im Ferdinandeum in Innsbruck, 85 x 58,5 cm).\"\n\n[Exhib. Cat. Basel 1974, 534, No. 384]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 84,3 x 58 x 1,3\n(nahezu original, r\u00fcckseitig mit drei senkrechten Leisten versehen)\n\n[Heydenreich, CDA 2010]","provenienz":"- 1871 Kunsthandlung v. Butsch, Augsburg\n\n- Graf Luckner, Altfranken\n\n- Sammlung Dr. Schubart, M\u00fcnchen [Cat. Sammlung Dr. Schubart 1894, 3]\n\n- Sammlung Bachofen-Burckhardt, [Cat. Sammlung Bachofen-Burckhardt 1907, No. 16]\n\n- Depositum der Prof. J.J. Bachofen-Burckhard-Stiftung 1921\n\n[Friedl\u00e4nder, Rosenberg 1932, 64]","materialtechnik":"Malerei auf Lindenholz (augenscheinlich)\n[Heydenreich, cda 2010]\n\nLindenholz\n[Friedl\u00e4nder, Rosenberg 1932, 64]\n[Exhib. Cat. Basel 1974, 534, Nr. 384] [Friedl\u00e4nder, Rosenberg 1979, 115]","verwandtearbeiten":"- \"Flechsig und Friedl\u00e4nder, Rosenberg verglichen das Bild mit dem Madonnen in Leningrad (FR187) [Schade 1974, Plate 107] \nKopie einer Variante im Ferdinandeum in Innsbruck, 85 x 58,5 cm).\"\n\n[Exhib. Cat. Basel 1974, 534, No. 384]","ausstellungsgeschichte":"Dresden 1899, Nr. 47\nD\u00fcsseldorf 1904, Nr. 217\nBasel 1974, Nr. 384","bildurl":"http:\/\/lucascranach.org\/thumbnails\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"545730","objectname":"FR402","inventarnummer":"PRIVATE_NONE-P041","title":"Liegende Quellnymphe","link":"liegende-quellnymphe","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1538","dateend":"1586","longtext":"The water nymph is shown asleep, reclining on the grassy bank of a stream. Her head rests on her angled right arm, her left arm lies next to her body and leads the viewer\"s eye to the transparent veil that envelops her body without concealing it. The sleeping one\"s weapons hang on a tree at the right. A stag in the background and a pair of partridges animate the expansive landscape. \n\n[G\u00f6rres, cda 2014]","relatedworks":"ES_MTB_115-1986-13_FR120\nUS_NGA_1957-12-1_FR403\nUS_MMANY_1975-1-136_FR403B\nDE_SKK_0895_FR-none\nDE_BRD-KHB_935-1966-7_FR-none","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 58 x 79 cm\n[San Diego Museum of Art, revised 2018]\nMa\u00dfe Bildtr\u00e4ger: ca. 50 x 75 cm\n[Friedl\u00e4nder, Rosenberg 1979, No. 402]\nMa\u00dfe Bildtr\u00e4ger: 55,5 x 77,5 cm\n[Exhib. Cat. Berlin 1925, No. 86]","provenienz":"- 1925 Sammlung Rudolf Oppenheim, Berlin\n- Kunsthandel Berlin\n- Polnischer Besitz\n- 1932 Privatbesitz Paris\n[Friedl\u00e4nder, Rosenberg 1979, No. 402]\n- 07. Nov. 2011 Kunsthandel Turquin, Experts en Tableaux, Paris (unverkauft?)\n[Seite eines Auktionskataloges von Turquin im Archiv D. Koepplin, 2011]\n- 2014 The Weiss Gallery, London\n- 2018 Ankauf mit der Unterstutzung von Toni Bloomberg; Gene und Taffin Ray; ein anonymer Stifter und das Museum \n- San Diego Museum of Art\n[cda 2018]","materialtechnik":"Malerei auf Holz\n[Friedl\u00e4nder, Rosenberg 1979, No. 402]","beschriftung":"In einem Schriftfeld links oben:\n\"FONTIS NYMPHA SACRI\nSOMNVM NE RVMPF.\nQVIESCO:\"\n\n[cda 2014]","verwandtearbeiten":"ES_MTB_115-1986-13_FR120\nUS_NGA_1957-12-1_FR403\nUS_MMANY_1975-1-136_FR403B\nDE_SKK_0895_FR-none\nDE_BRD-KHB_935-1966-7_FR-none","ausstellungsgeschichte":"Berlin 1925, Nr. 86","bildurl":"http:\/\/lucascranach.org\/thumbnails\/PRIVATE_NONE-P041_FR402\/01_Overall\/PRIVATE_NONE-P041_FR402_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P041_FR402\/01_Overall\/PRIVATE_NONE-P041_FR402_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P041_FR402\/01_Overall\/PRIVATE_NONE-P041_FR402_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P041_FR402\/01_Overall\/PRIVATE_NONE-P041_FR402_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P041_FR402\/01_Overall\/PRIVATE_NONE-P041_FR402_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/PRIVATE_NONE-P041_FR402\/01_Overall\/PRIVATE_NONE-P041_FR402_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-48_FR249\/01_Overall\/US_MMANY_1982-60-48_FR249_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1975-1-136_FR403B\/01_Overall\/US_MMANY_1975-1-136_FR403B_2007-08_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp712_FR038B\/01_Overall\/DK_SMK_KMSsp712_FR038B_2009-03-13_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp729_FR338E\/01_Overall\/DK_SMK_KMSsp729_FR338E_2007-06-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1976-201-11_FR213\/01_Overall\/US_MMANY_1976-201-11_FR213_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_55-220-2_FR314F\/01_Overall\/US_MMANY_55-220-2_FR314F_2007-10_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/CH_KMB_1227_FR224\/01_Overall\/CH_KMB_1227_FR224_2010-03_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp719_FR244\/01_Overall\/DK_SMK_KMSsp719_FR244_2009-03-13_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}

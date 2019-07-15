@@ -1,0 +1,26 @@
+{
+  "name": "FrontendDevelopmentPruefung",
+  "version": "1.0.0",
+  "description": "Cranach Testdaten für den Frontend Development Prüfung",
+  "repository": "git@github.com:cnoss/mi-bachelor-webdevelopment-fd-2019.git",
+  "scripts": {
+    "watch": "gulp watch",
+    "init": "gulp"
+  },
+  "author": "Christian Noss",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "concat": "^1.0.3",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-pretty-html": "^2.0.10",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "sass": "^1.20.3"
+  }
+}

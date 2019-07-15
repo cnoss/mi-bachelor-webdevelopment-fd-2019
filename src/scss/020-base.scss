@@ -1,0 +1,24 @@
+html,
+body {
+  background-color: $darker;
+  padding: $s;
+  font-family: $font-sans-serif;
+  color: $light;
+  
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main{
+  margin-bottom: $xl;
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+}

@@ -1,0 +1,55 @@
+{% include "../templates/system/header/header.html" %}
+<main>
+
+<article class="grid-container-zweispalter">
+<!--
+Zeigt ein Bild mit Bildunterschrift.
+braucht: 
+  $src(:String): URL des Bildes
+  $altText(:String): Alternativtext 
+  $caption(:String): Bildunterschrift (optional)
+-->
+
+<figure class="m-image-with-caption">
+  <img src="http://lucascranach.org/imageserver/DK_SMK_KMSsp723_FR346/01_Overall/DK_SMK_KMSsp723_FR346_2009-03-13_Overall-xs.jpg" srcset="http://lucascranach.org/imageserver/DK_SMK_KMSsp723_FR346/01_Overall/DK_SMK_KMSsp723_FR346_2009-03-13_Overall-xs.jpg 500w, http://lucascranach.org/imageserver/DK_SMK_KMSsp723_FR346/01_Overall/DK_SMK_KMSsp723_FR346_2009-03-13_Overall-s.jpg 600w, http://lucascranach.org/thumbnails/DK_SMK_KMSsp723_FR346/01_Overall/DK_SMK_KMSsp723_FR346_2009-03-13_Overall.jpg 700w" sizes="(min-width: 50em) 33vw, (min-width: 28em) 50vw, 100vw" alt="Bildnis eines Mannes">
+  </figure><!--
+Doku: tbd.
+-->
+
+<div class="o-image-description">
+  <h2>Bildnis eines Mannes</h2>
+  <dl class="rootdata">
+  <dt>Inventarnummer</dt><dd>DK_SMK_KMSsp723</dd>  <dt>Zuschreibung</dt><dd>Lucas Cranach der Ältere</dd>  <dt>Datum</dt><dd>1534 - 1534</dd>  <dt id="classification-headline" data-target="classification-text">Klassifikation</dt><dd id="classification-text">Malerei</dd>  <dt id="dimensions-headline" data-target="dimensions-text">Maße</dt><dd id="dimensions-text"><p>Maße Bildträger: 51,5 x 36,0 cm<br />
+Maße mit Rahmen: 70,0 x 54,0 cm</p>
+<p>[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="material-headline" data-target="material-text">Material/ Technik</dt><dd id="material-text"><p>Malerei auf Holz<br />
+[Statens Museum for Kunst, revised 2013]</p></dd>  <dt id="provenienz-headline" data-target="provenienz-text">Provenienz</dt><dd id="provenienz-text"><ul>
+<li>1674 in der Königlichen Kunstkammer, Kopenhagen<br />
+[Statens Museum for Kunst, revised 2013]</li>
+</ul></dd>  </dl>
+
+  <p class="longtext">Portrait of a man, holding a hat in his right hand. He is wearing a black coat over a white shirt. The background is painted in a greenish colour.
+[Statens Museum for Kunst, revised 2013]</p>
+</div>
+
+<div>
+</div></article>
+
+</main>
+
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var next = {"oid":"526158","objectname":"FR339","inventarnummer":"US_MMANY_1981-57-1","title":"Bildnis eines Mannes mit einer goldbestickten M\u00fctze (Lukas Spielhausen?)","link":"bildnis-eines-mannes-mit-einer-goldbestickten-mutze-lukas-spielhausen","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"1532","datebeginn":"1532","dateend":"1532","longtext":"This 1532 portrait shows a man at half length against a light blue background. His beard and mustache extend broadly to either side, and his hair is tucked beneath a close-fitting cap embroidered with gold. He wears a black coat whose lapel is decorated with a moir\u00e9 fabric. His doublet displays a pattern of black and orange stripes separated by narrow bands of yellow, green, and white.[1] The orange stripes are slashed to reveal the white undershirt, which is decorated on the collar with three gold-embroidered bands. A medallion hanging from the necklace is tucked beneath the doublet. The man grasps his lapel with his left hand, on which he wears four rings. The signet ring on his forefinger bears the initials LS and a red shield charged with a Wolfsangel, a house mark in the shape of a double hook with a slanted bar at the center.\n\n[1] The green is faded and difficult to discern.\n\n[Cat. New York 2013, 66, 288, No. 14]","relatedworks":"- DE_BRD-GNMN_Gm1649_FR341\n- \"Bildnis eines Mannes mit Barett\" 1532 (ehemals Sammlung Alfredo Hirsch, Buenos Aires)\n- \"Bildnis eines Mannes mit Rosenkranz\" 1532 (Kirchenkreis Alt-Hamburg)\n\nHolz von dem selben Baum wie das f\u00fcr: \n- DE_SKD_GG1919_ FR314-315","classification":"Malerei","dimensions":"Ma\u00dfe der Bildtr\u00e4ger: 50,5 \u00d7 36,4 \u00d7 0,8 cm (19 7\/8 \u00d7 14 5\/16 \u00d7 5\/16 Zoll)\n[Cat. New York 2013, 66, No. 14]","provenienz":"- Familie Spielhausen\n- Georg Hirth, M\u00fcnchen (bis 1916; Verkauf, Galerie Helbing, M\u00fcnchen, ab. 28. November 1916, Nr. 1042)\n- Privatsammlung (bis 1924; Verkauf durch Kleykamp, Den Haag, 10. Juni, Nr. 7)\n- [Julius B\u00f6hler, M\u00fcnchen]\n- [Van Diemen & Co., Berlin und New York, 1925]\n- [Paul Bottenwieser, Berlin und New York, 1925]\n- Dr. und Fr. Franz H. Hirschland, Harrison, N.Y. (1929 bis zum Tode des Mannes 1973)\n- Frau Franz H. (Gula V.) Hirschland, Harrison, N.Y. (1973 bis zu ihrem Tode 1980)\n- Erbe von Gula V. Hirschland, 1980\n\n[Cat. New York 2013, 66, No. 14]","materialtechnik":"Malerei auf Buchenholz\n[Cat. New York 2013, 66, No. 14]\n[Klein, Bericht 2006]","beschriftung":"Wappen\/Emblem:\n- Auf Wappenring: rotes Schild mit einer wei\u00dfen Wolfangel, dar\u00fcber \"LS\"\n\n[Cat. New York 2013, 66, No. 14]","verwandtearbeiten":"- DE_BRD-GNMN_Gm1649_FR341\n- \"Bildnis eines Mannes mit Barett\" 1532 (ehemals Sammlung Alfredo Hirsch, Buenos Aires)\n- \"Bildnis eines Mannes mit Rosenkranz\" 1532 (Kirchenkreis Alt-Hamburg)\n\nHolz von dem selben Baum wie das f\u00fcr: \n- DE_SKD_GG1919_ FR314-315","ausstellungsgeschichte":"Berlin 1925, Nr. 85\nNew York 1929, Nr. 20\nCambridge (Mass.) 1936, Nr. 10\n- New York 1939a, Nr. 57\n- New York 1951, Nr. 3\n- New York 1960, Nr. 5","bildurl":"http:\/\/lucascranach.org\/thumbnails\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-xl.jpg"}</script>
+<!--
+Druckt die JSON Repräsentation eines Kirby Objects in ein JS Schnippsel
+braucht: 
+  $varname(:String): Name der JS Variabel
+  $page(:KirbyPageObject ): Kirby Page Object 
+-->
+<script id="m-related-item-json">
+var previous = {"oid":"441649","objectname":"FR173","inventarnummer":"DK_SMK_DEP4","title":"Bildnis einer jungen Frau. Prinzessin Emilia von Sachsen?","link":"bildnis-einer-jungen-frau-prinzessin-emilia-von-sachsen","zuschreibung":"Lucas Cranach der \u00c4ltere","dated":"0","datebeginn":"1532","dateend":"1542","longtext":"The sitter is depicted as a half-length figure, facing left against a black background. Her red velvet robe is decorated with slits in the sleeves and brocade bands. She is wearing gloves with decorative slits on her hands. Around her neck is a ring decorated with pearls and a large double rowed chain. The young woman\"s curly hair is concealed beneath a bonnet.\n[G\u00f6rres, cda 2016]","classification":"Malerei","dimensions":"Ma\u00dfe Bildtr\u00e4ger: 41,6 x 29,8 x 0,61-1,42 cm\n(Originale Ma\u00dfe: 41,6 x ca. 27,6 cm)\n[Statens Museum for Kunst, Copenhagen, revised 2011]","provenienz":"- Ankauf von Carl Jacobsen bei Oppenheim Auktion, K\u00f6ln 14\/15 Oktober 1878 f\u00fcr 530 Mark\n- deponiert 1922 Carlsberg Glyptotek, Kat. Nr. 9\n\n[DK_SMK_DEP4_FR173_1966-01_Document.pdf]\n[DK_SMK_DEP4_FR173_unknown__index card_01.pdf]\n[Statens Museum for Kunst, Copenhagen, revised 2011]","materialtechnik":"Malerei auf Buchenholz\n[Klein, Bericht 2013]\n[Statens Museum for Kunst, Copenhagen, revised 2011]","ausstellungsgeschichte":"Hamburg 2003, Nr. 27\nRom 2010, Nr. 17","bildurl":"http:\/\/lucascranach.org\/thumbnails\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall.jpg","bildurlxs":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-xs.jpg","bildurls":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-s.jpg","bildurlm":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-m.jpg","bildurll":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-l.jpg","bildurlxl":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_DEP4_FR173\/01_Overall\/DK_SMK_DEP4_FR173_2009_Overall-xl.jpg"}</script>
+<script>var slideshowdata = [{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-48_FR249\/01_Overall\/US_MMANY_1982-60-48_FR249_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_28-221_FR254\/01_Overall\/US_MMANY_28-221_FR254_2012-12_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp721_FR414B\/01_Overall\/DK_SMK_KMSsp721_FR414B_2013-09-27_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1981-57-1_FR339\/01_Overall\/US_MMANY_1981-57-1_FR339_2012-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_08-19_FR424B\/01_Overall\/US_MMANY_08-19_FR424B_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DK_SMK_KMSsp727_FR274B\/01_Overall\/DK_SMK_KMSsp727_FR274B_2007-04-11_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MMANY_1982-60-35_FR-none\/01_Overall\/US_MMANY_1982-60-35_FR-none_2008-07_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/DE_smbGG-Lost_NONE-001_FR037\/01_Overall\/DE_smbGG-Lost_NONE-001_FR037_Overall-l.jpg"},{"value":"http:\/\/lucascranach.org\/imageserver\/US_MIA_57-11_FR127\/01_Overall\/US_MIA_57-11_FR127_2012_Overall-l.jpg"}]</script>{% include "../templates/system/footer/footer.html" %}
